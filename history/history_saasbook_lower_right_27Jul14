@@ -1,0 +1,1000 @@
+  555  git commit -am "added sort logic"
+  556  vi app/controllers/movies_controller.rb 
+  557  git commit -am "debugging redirect"
+  558  git commit -am "added sort logic"
+  559  git push heroku production:master
+  560  vi app/controllers/movies_controller.rb 
+  561  git commit -am "mostly working"
+  562  git push heroku production:master
+  563  vi app/controllers/movies_controller.rb 
+  564  git commit -am "fine tuning"
+  565  git push heroku production:master
+  566  vi app/controllers/movies_controller.rb 
+  567  git commit -am "clean up"
+  568  git push heroku production:master
+  569  heroku open
+  570  git diff
+  571  git hist
+  572  git diff --help
+  573  git hist
+  574  git diff a0672c eb6beb9
+  575  git diff a06721c eb6beb9
+  576  git commit -am "broke -trying to fix"
+  577  git push heroku production:master
+  578  vi app/controllers/movies_controller.rb 
+  579  vi app/views/movies/index.html.haml 
+  580  vi $HOME/.vim*
+  581  ls $HOME/.vim*
+  582  vi /home/saasbook/.vimrc
+  583  vi app/views/movies/index.html.haml 
+  584  git commit -am "mostly done - moving to chap 7"
+  585  git push heroku production:master
+  586  vi Gemfile
+  587  bundle install --without production
+  588  rails generate cucumber:install capybara
+  589  rails generate cucumber_rails_training_wheels:install
+  590  rake db:test:prepare
+  591  cucumber features/AddMovie.feature
+  592  ls features
+  593  vim features/search_tmdb.feature
+  594  cucumber features/search_tmdb.feature 
+  595  ls features
+  596  ls features/support
+  597  vi features/support/paths.rb 
+  598  vi app/views/movies/index.html.haml 
+  599  find . -name routes.db -print
+  600  find . -name routes.rb -print
+  601  vi config/routes.rb 
+  602  vi app/controllers/movies_controller.rb 
+  603  cd ../bdd-cucumber/
+  604  ls
+  605  cd rotten*
+  606  ls
+  607  gs
+  608  vi features/step_definitions/movie_steps.rb 
+  609  ls features
+  610  more features/filt*
+  611  clear
+  612  more features/filt*
+  613  vi features/step_definitions/movie_steps.rb 
+  614  vi features/fil*
+  615  vi features/sort*
+  616  vi features/fil*
+  617  vi features/sort*
+  618  vi features/fil*
+  619  vi features/sort*
+  620  git commit -am "final version"
+  621  cd ../../myrottenpotatoes/
+  622  diff Gemfile ../rails-intro/Gemfile
+  623  diff Gemfile ../rails-intro/Gemfile |less
+  624  vi Gemfile
+  625  bundle install --without production
+  626  rails generate cucumber:install capybara
+  627  more config/routes.rb 
+  628  ls config
+  629  git diff
+  630  git checkout -- config/routes.rb
+  631  head config/routes.rb
+  632  git diff
+  633  git commit -am "start of adding Cucumber and last addition to controller for destroy"
+  634  rails generate cucumber:install capybara
+  635  rails generate cucumber_rails_training_wheels:install
+  636  rake db:test:prepare
+  637  ls features
+  638  ls ../rails-intro/features
+  639  cucumber
+  640  vi app/views/movies/index.html.haml 
+  641  vi config/routes.rb 
+  642  cucumber
+  643  vi app/controllers/movies_controller.rb 
+  644  cucumber
+  645  more features/support/paths.rb
+  646  diff features/support/paths.rb ../rails-intro/features/support/paths.rb 
+  647  cp ../rails-intro/features/support/paths.rb features/support/paths.rb 
+  648  cucumber
+  649  diff features/step_definitions/web_steps.rb ../rails-intro/features/step_definitions/web_steps.rb 
+  650  diff features/search_tmdb.feature ../rails-intro/features/search_tmdb.feature 
+  651  vi features/search_tmdb.feature 
+  652  ls
+  653  ls features
+  654  ls features/step*
+  655  cucumber
+  656  vi features/search_tmdb.feature 
+  657  more features/step_definitions/web_steps.rb 
+  658  grep TMDb features/step_definitions/web_steps.rb
+  659  cucumber
+  660  vi features/search_tmdb.feature 
+  661  cucumber
+  662  vi features/search_tmdb.feature 
+  663  vi app/controllers/movies_controller.rb 
+  664  vi app/views/movies/index.html.haml 
+  665  cucumber
+  666  vi features/step_definitions/web_steps.rb 
+  667  cucumber --guess
+  668  ls features
+  669  ls ../rails-intro/features
+  670  ls ../rails-intro/features/st*
+  671  ls features/step_definitions/
+  672  ls features/support/
+  673  diff features/support/selectors.rb ../rails-intro/features/support/selectors.rb 
+  674  diff features/support/env.rb ../rails-intro/features/support/env.rb 
+  675  cucumber --guess
+  676  ls -al
+  677  ls .bun*
+  678  ls -al features/
+  679  ls -al features/step_definitions/8
+  680  ls -al features/step_definitions/
+  681  date
+  682  diff features/step_definitions/web_steps.rb  ../rails-intro/features/step_definitions/web_steps.rb 
+  683  cucumber --guess
+  684  ls
+  685  ls config
+  686  more config/application.rb 
+  687  ls
+  688  ls app
+  689  ls app/assets/
+  690  ls app/helpers/
+  691  more app/helpers/application_helper.rb 
+  692  ls app/views
+  693  ls app/views/layouts/
+  694  more app/views/layouts//app*
+  695  vi app/views/layouts/application.html.haml
+  696  cucumber --guess
+  697  cd ../rails-intro/
+  698  cucumber
+  699  vi spec/controllers/movies_controller_spec.rb
+  700  mkdir -p spec/controllers/
+  701  vi spec/controllers/movies_controller_spec.rb
+  702  diff Gemfile.lock ../myrottenpotatoes/Gemfile.lock 
+  703  diff Gemfile.lock ../myrottenpotatoes/Gemfile.lock |more
+  704  ls spec/controllers/
+  705  head app/controllers/movies_controller.rb 
+  706  vi Gemfile
+  707  history |grep bun
+  708  bundle install --without production
+  709  rails generate rspec:install
+  710  rspec
+  711  history |grep bundle
+  712  cd ..
+  713  ls
+  714  cd bdd-t*
+  715  ls
+  716  cd testrotten
+  717  ls
+  718  ls spec
+  719  more spec/controllers/*
+  720  history
+  721  vi spec/spec_helper.rb 
+  722  git status
+  723  git init
+  724  git add spec/spec_helper.rb
+  725  git add spec/controllers/movies_controller_spec.rb
+  726  git commit -m "added debugger to spec_helper and initial controller_spec"
+  727  gs
+  728  more spec/controllers/movies_controller_spec.rb 
+  729  vi spec/controllers/movies_controller_spec.rb
+  730  ls
+  731  ls config
+  732  diff config/routes.rb ../../rails-intro/config/routes.rb |more
+  733  cp more config/routes.rb
+  734  cp ../../rails-intro/config/routes.rb config/routes.rb
+  735  vi app/controllers/movies_controller.rb 
+  736  more .rspec
+  737  vi .rspec
+  738  git add .rspec
+  739  git status
+  740  git commit -am "added option to .rspec and first requirement to controller_spec"
+  741  vi config/routes.rb 
+  742  vi app/controllers/movies_controller.rb 
+  743  ls ../../rails-intro/app/views/movies/
+  744  touch app/views/movies/search_tmdb.html.haml
+  745  ls /mnt/copy
+  746  history > /mnt/copy/history_saasbook_RightWin_7Jun14
+  747  history
+  748  exit
+  749  echo $PATH
+  750  cd Documents/myrottenpotatoes/
+  751  rake routes
+  752  ls ..
+  753  more ../rails-intro/app/views/movies/edit.html.haml 
+  754  rake routes
+  755  more ../rails-intro/app/views/movies/edit.html.haml 
+  756  rake routes
+  757  cd ../rails*
+  758  vi app/views/movies/index.html.haml 
+  759  ls
+  760  mv saved_index app/views/movies/index.html.haml 
+  761  vi app/views/movies/index.html.haml 
+  762  more app/controllers/movies_controller.rb 
+  763  vi app/controllers/movies_controller.rb 
+  764  vi app/views/movies/index.html.haml 
+  765  cucumber features/search_tmdb.feature 
+  766  cucumber
+  767  ls f*
+  768  more features/search_tmdb.feature 
+  769  vi features/search_tmdb.feature
+  770  cucumber
+  771  sudo apt get vim-gtk
+  772  sudo yum install vim-gtk
+  773  history |grep apt
+  774  ls /usr/bin/apt*
+  775  sudo apt-get vim-gtk
+  776  man apt-get
+  777  sudo apt-get install vim-gtk
+  778  vi features/search_tmdb.feature
+  779  vi app/controllers/movies_controller.rb 
+  780  cd ../bdd*
+  781  ls features
+  782  cd rottenpotatoes/
+  783  ls features/
+  784  more app/views/movies/index.html.haml 
+  785  cucumber 
+  786  clear
+  787  cucumber 
+  788  clear
+  789  cucumber 
+  790  clear
+  791  cucumber 
+  792  clear
+  793  cucumber 
+  794  tar czf /mnt/copy/features.tar.gz features/
+  795  git hist
+  796  git commit -am "Filled in steps and dummy step definitions"
+  797  more app/views/movies/index.html.haml 
+  798  head app/views/movies/index.html.haml
+  799  head -30 app/views/movies/index.html.haml
+  800  head -20 app/views/movies/index.html.haml
+  801  cucumber 
+  802  head -20 app/views/movies/index.html.haml
+  803  cucumber 
+  804  git commit -am "check/uncheck logic and all checked test"
+  805  tar czf /mnt/copy/features.tar.gz features/
+  806  cucumber 
+  807  head -20 app/views/movies/index.html.haml
+  808  cucumber 
+  809  head -20 app/views/movies/index.html.haml
+  810  grep Movie app/controllers/movies_controller.rb 
+  811  cucumber 
+  812  head -20 app/views/movies/index.html.haml
+  813  cucumber 
+  814  git commit -am "list mostly complete"
+  815  tar czf /mnt/copy/features.tar.gz features/
+  816  cucumber 
+  817  git commit -am "sort mostly complete"
+  818  tar czf /mnt/copy/features.tar.gz features/
+  819  history
+  820  history > /mnt/copy/history_saasbook_lower_left_7Jun14
+  821  exit
+  822  echo $PATH
+  823  pwd
+  824  cd Documents/myrottenpotatoes/
+  825  echo $PATH
+  826  rails server
+  827  rails console
+  828  rails server
+  829  pwd
+  830  cd ..
+  831  ls
+  832  cd rails*
+  833  rails server
+  834  cd ..
+  835  ls
+  836  cd myrottenpotatoes/
+  837  ls
+  838  rails server
+  839  cd ..
+  840  ls -ld
+  841  ls -l
+  842  cd rails-intro/
+  843  rails server
+  844  history
+  845  history |grep debug
+  846  rails server
+  847  rails server 
+  848  cd ../myrottenpotatoes/
+  849  rails server 
+  850  cd ../rails-intro/
+  851  more app/controllers/movies_controller.rb 
+  852  history
+  853  history > history 
+  854  diff history /mnt/copy/history_saasbook_lower_left_7Jun14 |more
+  855  history > /mnt/copy/history_saasbook_lower_right_7Jun14
+  856  exit
+  857  echo $PATH
+  858  cd Documents
+  859  git clone https://github.com/saasbook/rails-intro
+  860  ls
+  861  cd rails-intro/
+  862  ls
+  863  git add .
+  864  git status
+  865  bundle install --without production
+  866  bundle exec rake db:migrate
+  867  bundle exec rake db:seed
+  868  ssh-keygen -t rsa
+  869  heroku login
+  870  heroku keys:add
+  871  heroku create
+  872  git push heroku master
+  873  heroku run rake db:migrate
+  874  heroku run rake db:seed
+  875  heroku open
+  876  ls app/views
+  877  ls app/views/*
+  878  ls
+  879  more save*
+  880  ls app/views/movies/
+  881  more app/views/movies/show.html.haml 
+  882  grep redirect app/views/movies/*
+  883  grep flash app/controllers/movies_controller.rb 
+  884  ls
+  885  ls log
+  886  vi log/deve*
+  887  tail log/deve*
+  888  cd ..
+  889  git clone https://github.com/saasbook/bdd-cucumber
+  890  ls
+  891  cd bdd*
+  892  ls
+  893  more RE*
+  894  cd rottenpotatoes/
+  895  ls
+  896  more app/views/movies/index.html.haml 
+  897  more app/controllers/m
+  898  more app/controllers/movies_controller.rb 
+  899  cd ..
+  900  git clone https://github.com/heroku/node-js-sample.git
+  901  ls
+  902  cd no*
+  903  ls
+  904  more app.json
+  905  more index.js
+  906  cd ../bdd*/rottenpotatoes/
+  907  git status
+  908  bundle install
+  909  more app/views/movies/index.html.haml 
+  910  bundle exec rake cucumber
+  911  ls features
+  912  ls -la features
+  913  more features/support/paths.rb 
+  914  cucumber
+  915  clear
+  916  cucumber
+  917  vi features/step_definitions/*.rb
+  918  ls features/step_definitions/
+  919  more features/step_definitions/web_steps.rb 
+  920  grep submit features/step_definitions/web_steps.rb
+  921  wc features/step_definitions/web_steps.rb 
+  922  cp features/step_definitions/web_steps.rb /mnt/copy/
+  923  vi features/step_definitions/movie_steps.rb 
+  924  cd ..
+  925  git clone https://github.com/saasbook/bdd-tdd-cycle
+  926  ls
+  927  cd bdd-tdd-cycle/
+  928  cd rott*
+  929  bundle install --without production
+  930  bundle exec rake db:migrate
+  931  rails generate cucumber:install capybara
+  932  rails generate cucumber_rails_training_wheels:install
+  933  rails generate rspec:install
+  934  bundle exec rake spec
+  935  bundle exec rake cucumber
+  936  cd ..
+  937  ls
+  938  ls rotten*
+  939  cd rott*
+  940  git status
+  941  more app/views/movies/
+  942  ls app/views/movies/
+  943  more app/views/movies/index.html.h8
+  944  more app/views/movies/index.html.haml 
+  945  cd ..
+  946  ls > whats_here
+  947  vi whats_here
+  948  ls
+  949  cd rails-intro
+  950  ls -ltr
+  951  ls features
+  952  cp -r features ../myrottenpotatoes/
+  953  ls ../myrottenpotatoes/
+  954  ls config
+  955  ls -ltr config
+  956  diff config/database.yml ../myrottenpotatoes/config/database.yml 
+  957  cp config/cuc* config/database.yml config/routes.rb ../myrottenpotatoes/config/
+  958  ls -l config/*
+  959  ls -ltr
+  960  ls -l db
+  961  cd ../myrottenpotatoes/
+  962  more features/*.rb
+  963  ls features/
+  964  more features/search_tmdb.feature 
+  965  cd ../rails-intro/
+  966  cucumber
+  967  diff Gemfile ../myrottenpotatoes/Gemfile |more
+  968  cd ../myrottenpotatoes/
+  969  vi features/search_tmdb.feature 
+  970  vi features/step_definitions/web_steps.rb 
+  971  more app/views/*
+  972  more app/views/layouts/a
+  973  more app/views/layouts/*
+  974  cd ../rails-intro
+  975  ls
+  976  cp spec/controllers/movies_controller_spec.rb .
+  977  ls
+  978  vi Gemfile
+  979  bundle install --without production
+  980  rails generate rspec:install
+  981  ls spec/
+  982  ls spec/controllers/
+  983  diff movies_controller_spec.rb spec/controllers/
+  984  rm movies_controller_spec.rb 
+  985  cucumber
+  986  autotest
+  987  more spec/controllers/movies_controller_spec.rb 
+  988  RSpec
+  989  vi Gemfile
+  990  bundle install --without production
+  991  rails generate rspec:install
+  992  rspec -c -fn spec/controllers/movies_controller_spec.rb 
+  993  rspec -c spec/controllers/movies_controller_spec.rb 
+  994  vim hello.rb 
+  995  vim spec/controllers/movies_controller_spec.rb 
+  996  ls
+  997  rake spec
+  998  vi spec/controllers/movies_controller_spec.rb 
+  999  rake spec
+ 1000  vi spec/controllers/movies_controller_spec.rb 
+ 1001  rake spec
+ 1002  vi spec/controllers/movies_controller_spec.rb 
+ 1003  pwd
+ 1004  ls
+ 1005  ls spec
+ 1006  ls -l spec
+ 1007  ls -l spec/controllers/
+ 1008  rake spec
+ 1009  ls -l app/controllers/movies_controller.rb 
+ 1010  head app/controllers/movies_controller.rb 
+ 1011  rake spec
+ 1012  ps aus
+ 1013  ps -aux
+ 1014  ps -aux |grep rspec
+ 1015  ps -el
+ 1016  ps -el |grep rspec
+ 1017  ps -el |grep spork
+ 1018  ps -el |grep webrat
+ 1019  more spec/spec_helper.rb 
+ 1020  grep spork spec/spec_helper.rb 
+ 1021  ruby -S rspec ./spec/controllers/movies_controller_spec.rb 
+ 1022  vi spec/controllers/movies_controller_spec.rb 
+ 1023  more spec/spec_helper.rb 
+ 1024  cp spec/spec_helper.rb ..
+ 1025  ls ..
+ 1026  mv ../spec* .
+ 1027  vi spec/spec_helper.rb 
+ 1028  ruby -S rspec ./spec/controllers/movies_controller_spec.rb 
+ 1029  rspec -c spec/controllers/movies_controller_spec.rb 
+ 1030  mv spec/spec_helper.rb ./spec_helper.rb.simplecov
+ 1031  rails generate rspec:install
+ 1032  more spec/spec_helper.rb 
+ 1033  rails generate rspec:install
+ 1034  rspec -c spec/controllers/movies_controller_spec.rb 
+ 1035  ls
+ 1036  diff spec_helper.rb spec/spec_helper.rb 
+ 1037  cp spec_helper.rb spec
+ 1038  vi spec/spec_helper.rb 
+ 1039  ls spec
+ 1040  ls
+ 1041  cp spec*cov spec/spec_helper.rb
+ 1042  ls spec
+ 1043  more spec/rail*
+ 1044  vi spec/spec_helper.rb 
+ 1045  rspec
+ 1046  grep simplecov Gemeilf
+ 1047  grep simplecov Gemfile
+ 1048  more Gem*
+ 1049  rspec
+ 1050  cd ..
+ 1051  ls
+ 1052  cd bdd-tdd*
+ 1053  ls
+ 1054  cd ro*
+ 1055  ls
+ 1056  more spec
+ 1057  ls spec
+ 1058  more spec/spec*
+ 1059  cp spec/spec_helper.rb ../../rails-intro/spec
+ 1060  cd ../../rails-intro/
+ 1061  rspec
+ 1062  cd ../bdd-tdd-cycle/
+ 1063  cp -r rottenpotatoes/ testrotten
+ 1064  cd testrotten
+ 1065  ls
+ 1066  cp ../../rails-intro/spec/controllers/movies_controller_spec.rb .
+ 1067  mkdir spec/controllers
+ 1068  mv movies_controller_spec.rb spec/controllers/
+ 1069  rspec
+ 1070  cucumber
+ 1071  autotest
+ 1072  bundle exec autotest
+ 1073  vi Gemfile
+ 1074  more spec/spec*
+ 1075  bundle exec autotest
+ 1076  vi Gemfile
+ 1077  bundle install --without production
+ 1078  bundle exec autotest
+ 1079  history > /mnt/copy/history_saasbook_upper_right_7Jun14
+ 1080  sudo shutdown -h now
+ 1081  cd Documents/bdd-tdd-cycle/testrotten/
+ 1082  ls app/views/movies/
+ 1083  ls app/views/lay*
+ 1084  ls app/views/movies/search_tmdb.html.haml
+ 1085  cd ..
+ 1086  ls
+ 1087  mv myrottenpotatoes myrottenpotatoes_old
+ 1088  rails new myrottenpotatoes -T
+ 1089  cd rottenpotatoes
+ 1090  cd ../myrottenpotatoes
+ 1091  diff Gemfile ../myrottenpotatoes_old/Gemfile
+ 1092  git init
+ 1093  git status
+ 1094  git add Gemfile
+ 1095  cp ../myrottenpotatoes_old/Gemfile .
+ 1096  git diff
+ 1097  vi Gemfile
+ 1098  git diff
+ 1099  vi Gemfile
+ 1100  git diff
+ 1101  bundle install --without production
+ 1102  git add Gemfile.lock
+ 1103  diff config/routes.rb ../myrottenpotatoes_old/config/routes.rb 
+ 1104  cp ../myrottenpotatoes_old/config/routes.rb config/routes.rb
+ 1105  ga config/routes.rb
+ 1106  ls public
+ 1107  rm public/index.html
+ 1108  rails generate migration create_movies
+ 1109  more db/migrate/20140610183909_create_movies.rb 
+ 1110  vi db/migrate/20140610183909_create_movies.rb
+ 1111  rake db:migrate
+ 1112  more db/migrate/20140610183909_create_movies.rb 
+ 1113  git status
+ 1114  cp ../myrottenpotatoes_old/app/models/movie.rb app/models/movie.rb
+ 1115  git add app/models/movie.rb
+ 1116  more app/models/movie.rb
+ 1117  history
+ 1118  more ../myrottenpotatoes_old/app/models/movie.rb 
+ 1119  cp ../myrottenpotatoes_old/app/models/movie.rb app/models/movie.rb 
+ 1120  rails console
+ 1121  vi db/seeds.rb
+ 1122  rake db:seed
+ 1123  mkdir -p app/views/movies
+ 1124  vi app/controllers/movies_controller.rb
+ 1125  more ../bdd-cucumber/rottenpotatoes/app/controllers/movies_controller.rb 
+ 1126  cp ../bdd-cucumber/rottenpotatoes/app/controllers/movies_controller.rb app/controllers/
+ 1127  ls app/views/movies/
+ 1128  ls ../bdd-tdd-cycle/rottenpotatoes/app/views/movies/
+ 1129  ls app/views/movies/
+ 1130  cp ../bdd-tdd-cycle/rottenpotatoes/app/views/movies/ app/views/movies/
+ 1131  cp ../bdd-tdd-cycle/rottenpotatoes/app/views/movies/* app/views/movies/
+ 1132  more app/views/movies/index.html.haml 
+ 1133  ls
+ 1134  mv app/views/layouts/application.html.erb .
+ 1135  cp ../myrottenpotatoes_old/app/views/layouts/application.html.haml app/views/layouts/
+ 1136  more app/controllers/movies_controller.rb 
+ 1137  ls app/views/movies/
+ 1138  cp ../bdd-cucumber/rottenpotatoes/app/assets/stylesheets/application.css app/assets/stylesheets/
+ 1139  rails server
+ 1140  diff app/models/movie.rb ../bdd-cucumber/rottenpotatoes/app/models/movie.rb 
+ 1141  rails server
+ 1142  more app/models/movie.rb 
+ 1143  diff app/models/movie.rb ../bdd-t*/rottenpotatoes/app/models/movie.rb 
+ 1144  cp ../bdd-t*/rottenpotatoes/app/models/movie.rb app/models/
+ 1145  cp ../bdd-t*/rottenpotatoes/app/models/movie.rb ../bdd-cucumber/rottenpotatoes/app/models/movie.rb
+ 1146  vi ../bdd-cucumber/rottenpotatoes/app/models/movie.rb
+ 1147  rails server
+ 1148  git commit -am "through chapter 4"
+ 1149  git status
+ 1150  more Gemfile
+ 1151  bundle install --without production
+ 1152  rails generate cucumber:install capybara
+ 1153  rails generate cucumber_rails_training_wheels:install
+ 1154  rake db:test:prepare
+ 1155  ls features
+ 1156  ls ../myrottenpotatoes_old/features
+ 1157  ls ../
+ 1158  ls ../rails-intro/
+ 1159  ls ../rails-intro/features
+ 1160  diff ../rails-intro/features/seach* ../myrottenpotatoes_old//features/search_tmdb.feature 
+ 1161  diff ../rails-intro/features/search* ../myrottenpotatoes_old//features/search_tmdb.feature 
+ 1162  ls ../bdd-cucumber/rottenpotatoes/features
+ 1163  cp ../rails-intro/features/search_tmdb.feature features
+ 1164  vi features/AddMovie.feature
+ 1165  diff features/support/paths.rb ../myrottenpotatoes_old/features/support/paths.rb 
+ 1166  diff features/support/paths.rb ../rails-intro/features/support/paths.rb 
+ 1167  diff features/support/paths.rb ../bdd-cucumber/rottenpotatoes/features/support/paths.rb 
+ 1168  diff features/support/paths.rb ../bdd-tdd-cycle/rottenpotatoes/features/support/paths.rb 
+ 1169  cp ../bdd-tdd-cycle/rottenpotatoes/features/support/paths.rb features/support/
+ 1170  cucumber
+ 1171  cd ../myrottenpotatoes_old/
+ 1172  cucumber
+ 1173  cd ../rails-intro/
+ 1174  cucumber
+ 1175  cd ../rottenpotatoes/
+ 1176  diff Gemfile ../bdd-cucumber/rottenpotatoes/Gemfile
+ 1177  diff Gemfile ../bdd-cucumber/rottenpotatoes/Gemfile |more
+ 1178  cd ../myrottenpotatoes
+ 1179  diff Gemfile ../bdd-cucumber/rottenpotatoes/Gemfile |more
+ 1180  grep ruby Gem*
+ 1181  ruby --v
+ 1182  ruby --h
+ 1183  ruby -h
+ 1184  ruby -v
+ 1185  ls features/
+ 1186  more features/search_tmdb.feature 
+ 1187  vi app/controllers/movies_controller.rb 
+ 1188  cd ..
+ 1189  ls
+ 1190  cd Down*
+ 1191  ls
+ 1192  cp /mnt/copy/*.tar .
+ 1193  ls
+ 1194  tar -xvf *.tar
+ 1195  ls
+ 1196  rm hw0-1.tar
+ 1197  cd Downloads
+ 1198  ls -l
+ 1199  ls hw0
+ 1200  ls hw1
+ 1201  cd ..
+ 1202  ls
+ 1203  ls Dow*
+ 1204  mv Down*/* .
+ 1205  rmdir Downloads/
+ 1206  ls
+ 1207  cd hw1
+ 1208  ls -ltr
+ 1209  cd ..
+ 1210  cd Document
+ 1211  ls
+ 1212  cd Documents/
+ 1213  git clone https://github.com/saasbook/oracle-of-bacon
+ 1214  ls
+ 1215  cd ora*
+ 1216  ls
+ 1217  ls spec
+ 1218  cd Documents/bdd-tdd-cycle/testrotten/
+ 1219  vi spec/controllers/movies_controller_spec.rb 
+ 1220  vi app/controllers/movies_controller.rb 
+ 1221  vi spec/controllers/movies_controller_spec.rb 
+ 1222  vi app/controllers/movies_controller.rb 
+ 1223  vi spec/controllers/movies_controller_spec.rb 
+ 1224  mkdir spec/fixures
+ 1225  vi spec/fixures/movies.yml
+ 1226  vi spec/controllers/movies_controller_spec.rb 
+ 1227  vi app/controllers/movies_controller.rb 
+ 1228  ls -l app/views
+ 1229  ls app/views/movies/
+ 1230  vi spec/controllers/movies_controller_spec.rb 
+ 1231  ls ../../rails-intro/app/views/movies/
+ 1232  rm app/views/movies/search_tmdb.html.haml 
+ 1233  man mkdir
+ 1234  mkdir -p spec/models
+ 1235  vi spec/models/movie_spec.rb
+ 1236  ls app/models/
+ 1237  vi app/models/movie.rb 
+ 1238  vi app/controllers/movies_controller.rb 
+ 1239  touch app/views/movies/search_tmdb.html.haml
+ 1240  cd ../rottenpotatoes/
+ 1241  git diff
+ 1242  ls
+ 1243  ls features
+ 1244  ls ../..
+ 1245  ls ../../bdd-cucumber/
+ 1246  ls ../../bdd-cucumber/rottenpotatoes/features/
+ 1247  vi /mnt/copy/hw_4_provided_Cucumber.txt 
+ 1248  cucumber
+ 1249  clear
+ 1250  cucumber
+ 1251  clear
+ 1252  cucumber
+ 1253  more app/views/movies/show.html.haml 
+ 1254  cucumber
+ 1255  more app/views/movies/show.html.haml 
+ 1256  cucumber
+ 1257  vi config/routes.rb 
+ 1258  more ../testrotten/app/models/movie.rb 
+ 1259  vi config/routes.rb 
+ 1260  cucumber
+ 1261  vi app/controllers/movies_controller.rb 
+ 1262  cucumber
+ 1263  vi app/controllers/movies_controller.rb 
+ 1264  vi app/models/movie.rb 
+ 1265  cucumber
+ 1266  vi features/step_definitions/movie_steps.rb 
+ 1267  ls ../testrotten/spec
+ 1268  ls spec
+ 1269  ls ../testrotten/spec/*
+ 1270  bundle exec rake spec
+ 1271  mkdir spec/controllers spec/models spec/fixtures
+ 1272  cp ../testrotten/spec/controllers/* spec/controllers/
+ 1273  cp ../testrotten/spec/models/* spec/models/
+ 1274  cp ../testrotten/spec/fixtures/* spec/fixtures/
+ 1275  cp ../testrotten/spec/fixures/* spec/fixtures/
+ 1276  ls spec/fixtures/
+ 1277  more spec/fixtures/movies.yml 
+ 1278  ls spec/models/
+ 1279  vi spec/models/movie_spec.rb 
+ 1280  cucumber
+ 1281  grep @movies app/controllers/movies_controller.rb 
+ 1282  grep @movies app/views/movies/*
+ 1283  grep title app/controllers/movies_controller.rb 
+ 1284  cucumber
+ 1285  ls app/views/movies/
+ 1286  more app/views/movies/show*
+ 1287  cp app/views/movies/index.html.haml app/views/movies/search_directors.html.haml
+ 1288  vi app/views/movies/search_directors.html.haml
+ 1289  cucumber
+ 1290  vi app/views/movies/search_directors.html.haml
+ 1291  cucumber
+ 1292  tar czf /mnt/copy/features.tar.gz features/
+ 1293  vi spec/spec_helper.rb
+ 1294  vi features/support/env.rb 
+ 1295  rake cucumber
+ 1296  rake spec
+ 1297  vi app/controllers/movies_controller.rb 
+ 1298  rake spec
+ 1299  touch app/views/movies/search_tmdb.html.haml
+ 1300  rake spec
+ 1301  clear
+ 1302  rake spec
+ 1303  vi app/models/movie.rb 
+ 1304  rake cucumber
+ 1305  vi app/controllers/movies_controller.rb 
+ 1306  rake cucumber
+ 1307  rake spec
+ 1308  ls spec
+ 1309  vi spec/controllers/*
+ 1310  rake spec
+ 1311  vi spec/controllers/*
+ 1312  rake spec
+ 1313  vi spec/controllers/*
+ 1314  rake spec
+ 1315  history |grep heroku
+ 1316  rake spec
+ 1317  cd Documents/bdd-tdd-cycle/rottenpotatoes/
+ 1318  more features/support/paths.rb 
+ 1319  vi features/support/paths.rb 
+ 1320  ls features/
+ 1321  ls features/step_definitions/
+ 1322  more features/step_definitions/web_steps.rb 
+ 1323  more ../testrotten/app/controllers/movies_controller.rb 
+ 1324  more features/step_definitions/movie_steps.rb 
+ 1325  more app/views/movies/index.html.haml 
+ 1326  more app/controllers/movies_controller.rb 
+ 1327  more ../testrotten/config/routes.rb 
+ 1328  rake routes
+ 1329  diff config/routes.rb ../testrotten/config/routes.rb 
+ 1330  cp ../testrotten/config/routes.rb config/routes.rb 
+ 1331  rake routes
+ 1332  vi config/routes
+ 1333  vi config/routes.rb
+ 1334  rake routes
+ 1335  vi app/controllers/movies_controller.rb 
+ 1336  vi config/routes.rb
+ 1337  rake routes
+ 1338  vi config/routes.rb
+ 1339  rake routes
+ 1340  vi config/routes.rb
+ 1341  rake routes
+ 1342  vi config/routes.rb
+ 1343  rake routes
+ 1344  vi config/routes.rb
+ 1345  rake routes
+ 1346  ls app/models/
+ 1347  diff app/models/movie.rb ../testrotten/app/models/movie.rb 
+ 1348  cp ../testrotten/app/models/movie.rb app/models/movie.rb 
+ 1349  vi app/models/movie.rb
+ 1350  rake routes
+ 1351  vi app/models/movie.rb
+ 1352  vi config/routes.rb
+ 1353  rake routes
+ 1354  vi config/routes.rb
+ 1355  rake routes
+ 1356  vi config/routes.rb
+ 1357  rake routes
+ 1358  ls spec
+ 1359  more spec/spec_helper.rb 
+ 1360  more app/models/movie.rb 
+ 1361  vi app/models/movie.rb
+ 1362  more app/models/movie.rb 
+ 1363  vi app/views/movies/show*
+ 1364  rake routes
+ 1365  vi app/controllers/movies_controller.rb 
+ 1366  vi config/routes.rb 
+ 1367  vi app/controllers/movies_controller.rb 
+ 1368  more app/models/movie.rb 
+ 1369  vi app/models/movie.rb 
+ 1370  rake routes
+ 1371  more ../testrotten/app/controllers/movies_controller.rb 
+ 1372  grep nil app/controllers/movies_controller.rb 
+ 1373  more features/
+ 1374  more features/search_for_movies_by_director.feature 
+ 1375  rake routes
+ 1376  ls spec
+ 1377  vi spec/controllers/movies_controller_spec.rb 
+ 1378  cd Documents/bdd-tdd-cycle/rottenpotatoes/
+ 1379  rails server
+ 1380  clear
+ 1381  cd Documents/bdd-tdd-cycle/rottenpotatoes/
+ 1382  bundle exec rspec
+ 1383  bundle exec autotest
+ 1384  vi Gemfile
+ 1385  autotest
+ 1386  cd ../testrotten/
+ 1387  autotest
+ 1388  cd ..
+ 1389  ls
+ 1390  cd rottenpotatoes/
+ 1391  rails generate migration add_director
+ 1392  vi ../../myrottenpotatoes/Gemfile
+ 1393  vi db/migrate/20140610184105_add_director.rb 
+ 1394  rake db:migration
+ 1395  rake db:migrate
+ 1396  ls
+ 1397  vi app/models/movie.rb 
+ 1398  rake db:test:prepare
+ 1399  git status
+ 1400  git commit -am "added director to movies table"
+ 1401  tar czf /mnt/copy/hw4.tar.gz app/ config/ db/migrate features/ spec/ Gemfile Gemfile.lock
+ 1402  ls ../../bdd-cucumber/rottenpotatoes/features/
+ 1403  ls ../../bdd-cucumber/rottenpotatoes/features/step_definitions/
+ 1404  cp ../../bdd-cucumber/rottenpotatoes/features/step_definitions/movie_steps.rb features/step_definitions/
+ 1405  vi features/step_definitions/
+ 1406  vi features/step_definitions/movie_steps.rb 
+ 1407  more ../../bdd-cucumber/rottenpotatoes/features/support/paths.rb 
+ 1408  diff ../../bdd-cucumber/rottenpotatoes/features/support/paths.rb features/support/paths.rb 
+ 1409  cp ../../bdd-cucumber/rottenpotatoes/features/support/paths.rb features/support/paths.rb 
+ 1410  more config/routes.rb 
+ 1411  rake routes
+ 1412  vi app/views/movies/show.html.haml 
+ 1413  vi app/views/movies/edit.html.haml 
+ 1414  ls features/
+ 1415  ls features/step_definitions/
+ 1416  vi features/step_definitions/m*
+ 1417  vi app/views/movies/show.html.haml 
+ 1418  vi app/controllers/movies_controller.rb 
+ 1419  vi app/views/movies/show.html.haml 
+ 1420  more features/
+ 1421  ls features/
+ 1422  more features/search_for_movies_by_director.feature 
+ 1423  more app/views/movies/show.html.haml 
+ 1424  vi features/support/paths.rb 
+ 1425  history |grep tar
+ 1426  tar czf /mnt/copy/hw4.tar.gz app/ config/ db/migrate features/ spec/ Gemfile Gemfile.lock
+ 1427  vi app/models/movie.rb 
+ 1428  vi app/controllers/movies_controller.rb 
+ 1429  tar czf /mnt/copy/hw4.tar.gz app/ config/ db/migrate features/ spec/ Gemfile Gemfile.lock
+ 1430  tail -20 app/controllers/movies_controller.rb 
+ 1431  vi 
+ 1432  vi app/controllers/movies_controller.rb 
+ 1433  sudo reboot
+ 1434  sudo apt-get
+ 1435  sudo apt-get clean
+ 1436  sudo apt-get check
+ 1437  apt-get -f install
+ 1438  sudo apt-get -f install
+ 1439  df -h
+ 1440  du -s *
+ 1441  ls -l /boot
+ 1442  sudo rm /boot/*3.8.0.29*
+ 1443  sudo rm /boot/*3.8.0-29*
+ 1444  sudo rm /boot/*3.8.0-32*
+ 1445  sudo rm /boot/*3.8.0-38*
+ 1446  ls -l /boot
+ 1447  df -h
+ 1448  sudo apt-get -f install
+ 1449  grub
+ 1450  sudo apt-get install grub
+ 1451  df -h
+ 1452  du -s *
+ 1453  tar -xvf /mnt/copy/Documents.169.1x.tar
+ 1454  tar -xvf /mnt/copy/Documents.169.1x.tar *
+ 1455  tar -cvf /mnt/copy/Documents.169.1x.tar *
+ 1456  ls
+ 1457  ls Down*
+ 1458  tar -cvf /mnt/copy/Download.169.1x.tar *
+ 1459  tar -cvf /mnt/copy/Documents.169.1x.tar Documents
+ 1460  tar -cvf /mnt/copy/Download.169.1x.tar Download
+ 1461  tar -cvf /mnt/copy/Downloads.169.1x.tar Downloads
+ 1462  ls -l /mnt/copy/*.tar
+ 1463  rm /mnt/copy/Download.169.1x.tar 
+ 1464  ls
+ 1465  ls hello
+ 1466  sudo reboot
+ 1467  sudo apt-get install -f
+ 1468  sudo apt-get autoremove
+ 1469  sudo apt-get --purge remove && sudo apt-get autoclean
+ 1470  sudo apt-get -f install
+ 1471  sudo dpkg-reconfigure -a
+ 1472  sudo apt-get update
+ 1473  sudo apt-get upgrade && sudo apt-get dist-upgrade
+ 1474  sudo apt-get clean
+ 1475  sudo apt-get autoremove
+ 1476  sudo rm -r /var/lib/apt/list/*
+ 1477  sudo rm -r /var/lib/apt/lists/*
+ 1478  sudo apt-get updates
+ 1479  sudo apt-get update
+ 1480  sudo apt-get -f install
+ 1481  sudo apt-get -f install linux-headers-3.8.0-42
+ 1482  sudo apt-get -f install linux-headers-3.8.0-42-generic
+ 1483  sudo apt-get -f install linux-headers-3.8.0-42-generic linux-image-3.8.0-42-generic
+ 1484  sudo apt-get -f install linux-headers-3.8.0-42-generic linux-image-3.8.0-42-generic linux-headers-3.8.0-42 
+ 1485  mkdir /usr/src/linux-headers-3.8.0-42-generic
+ 1486  sudo mkdir /usr/src/linux-headers-3.8.0-42-generic
+ 1487  du -h --max-depth=1 | sort -hr
+ 1488  ls -l /.cache
+ 1489  ls -l .rvm
+ 1490  pwd
+ 1491  ls -l .cache
+ 1492  du -s .cache *
+ 1493  du -s .cache/*
+ 1494  rm .cache/mozilla/*
+ 1495  rm -rf .cache/.mozilla/*
+ 1496  ls -l .rvm
+ 1497  du -s .rvm/*
+ 1498  du -h
+ 1499  df -h
+ 1500  dpkg -l |grep linux-image
+ 1501  ls -la /boot
+ 1502  ls -l /boot/grub
+ 1503  du -h boot
+ 1504  du -h /boot
+ 1505  df -i
+ 1506  ls bin
+ 1507  mkdir bin
+ 1508  vi bin/count_em
+ 1509  ./bin/count_em
+ 1510  chmod +x ./bin/count_em
+ 1511  ./bin/count_em
+ 1512  sudo ls -l /root/.local
+ 1513  rm -rf .cache/mozilla/*
+ 1514  df -i
+ 1515  sudo apt-get -f install
+ 1516  sudo df -i
+ 1517  sudo reboot
+ 1518  df -h
+ 1519  ls -l Desktop
+ 1520  rm -rf Desktop/Old\ Firefox\ Data/
+ 1521  sudo shutdown -h now
+ 1522  cd Documents/typo/
+ 1523  rake server
+ 1524  history |grep rake
+ 1525  history |grep server
+ 1526  rails server
+ 1527  history |grep debug
+ 1528  history |grep rails
+ 1529  rails server
+ 1530  rails server --debugger
+ 1531  ls
+ 1532  vi Gemfile
+ 1533  grep debug ../rottenpotatoes/Gemfile
+ 1534  history |grep bundle
+ 1535  bundle install --without production
+ 1536  rails server --debugger
+ 1537  vi Gemfile
+ 1538  rails server
+ 1539  vi Gemfile
+ 1540  bundle install --without production
+ 1541  rails server
+ 1542  rails server --debugger
+ 1543  cd ..
+ 1544  ls
+ 1545  cd indices-performance-master/
+ 1546  ls
+ 1547  rails server
+ 1548  history 
+ 1549  cd
+ 1550  ls
+ 1551  ls -l /mnt/saas
+ 1552  ls -l /mnt
+ 1553  ls -l /mnt/copy
+ 1554  history > /mnt/copy/history_saasbook_lower_right_27Jul14

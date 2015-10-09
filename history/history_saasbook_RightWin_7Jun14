@@ -1,0 +1,746 @@
+    1  sudo update-alternatives --config editor
+    2  exit
+    3  wget -O configure_image.sh https://raw.github.com/msmithnova/courseware/master/vm-setup/configure-image-0.10.3.sh
+    4  . configure_image.sh
+    5  ls
+    6  rm *.txt
+    7  rm *.sh
+    8  ls
+    9  cd Documents/
+   10  wget htts://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro
+   11  wget https://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro
+   12  wget https://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro.zip
+   13  exit
+   14  cd Documents/rottenpotatoes/
+   15  ls
+   16  exit
+   17  rails -v
+   18  gem install rails -v 3.2.16
+   19  rails -v
+   20  history
+   21  exit
+   22  ping 91.189.92.200
+   23  wget http://security.ubuntu.com/ubuntu/pool/main/l/linux-meta-lts-raring/linux-image-generic-lts-raring_3.8.0.33.33_i386.deb
+   24  su -
+   25  cd /etc
+   26  ls
+   27  ls network
+   28  cd network
+   29  sudo ifconfig -a
+   30  cd 
+   31  ls
+   32  cd Documents
+   33  ls
+   34  cd rottenpotatoes/
+   35  ls
+   36  rails server
+   37  bundle install
+   38  rails server
+   39  ls /
+   40  ls /mnt
+   41  ls /media
+   42  sudo mount -t vboxsf saasbook /mnt/saasbook
+   43  mkdir /mnt/saasbook
+   44  sudo mkdir /mnt/saasbook
+   45  sudo mount -t vboxsf saasbook /mnt/saasbook
+   46  sudo mount
+   47  ls /etc/fstab
+   48  more /etc/fstab
+   49  ls /mnt
+   50  ls /mnt/saasbook
+   51  sudo fastboot
+   52  sudo reboot
+   53  ls /mnt
+   54  ls /mnt/saasbook
+   55  cd /mnt/saasbook
+   56  ls
+   57  cd
+   58  ls
+   59  ls /media
+   60  ls /media/sf_saasbook
+   61  sudo mount -t vboxsf -o uid=1000,gid=1000 saasbook /mnt/saasbook
+   62  more /etc/passwd
+   63  echo $UID
+   64  sudo mount -t vboxsf -o uid=1000,gid=1000 share saasbook
+   65  sudo mount -t vboxsf -o uid=1000,gid=1000 saasbook /mnt/saasbook
+   66  chmod 777 /mnt/saasbook
+   67  sudo chmod 777 /mnt/saasbook
+   68  sudo mount -t vboxsf -o uid=1000,gid=1000 saasbook /mnt/saasbook
+   69  sudo ls -l /media/*
+   70  sudo ls -ld /media/*
+   71  pwd
+   72  cd /tmp
+   73  sudo mount -t vboxsf -o uid=1000,gid=1000 saasbook /mnt/saasbook
+   74  sudo reboot
+   75  ls /media
+   76  sudo ls -l /media/*
+   77  sudo mount -t vboxsf -o uid=1000,gid=1000 copy /mnt/saasbook
+   78  sudo mkdir /mnt/copy
+   79  sudo chmod 777 /mnt/copy
+   80  sudo mount -t vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   81  sudo /sbin/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   82  ls /sbin/mount*
+   83  sudo /sbin/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   84  sudo ls -l /sbin/moun*
+   85  sudo /usr/lib/VBoxGuestAdditions/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   86  ls -l /usr/lib/V*
+   87  sudo /usr/lib/VBoxGuestAdditions/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   88  sudo /sbin/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   89  ls -l /sbin/m*
+   90  ls -l /usr/lib/VB*
+   91  sudo ls -l /usr/lib/VB*
+   92  sudo find / -name mount.vboxsf -print
+   93  sudo /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   94  sudo ln -s /sbin/mount.vboxsf /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf 
+   95  sudo rm /sbin/mount.vboxsf 
+   96  sudo ln -s /sbin/mount.vboxsf /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf 
+   97  sudo ln -s /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf /sbin/mount.vboxsf 
+   98  ls -l /sbin/mount*
+   99  history
+  100  ls -l /mnt/copy
+  101  sudo vim /etc/rc.local
+  102  more /etc/rc.local
+  103  sudo umount /mnt/copy
+  104  sudo /etc/rc.local
+  105  ls /mnt/copy
+  106  sudo reboot
+  107  ls /mnt/copy
+  108  sudo update-alternatives
+  109  sudo update-alternatives --list
+  110  sudo update-alternatives --list editor
+  111  ls -a
+  112  ls -l /copy
+  113  ls -l /mnt/copy
+  114  sudo shutdown
+  115  sudo shutdown -h now
+  116  sudo rake db:migrate
+  117  rake db:migrate
+  118  sudo shutdown -h now
+  119  mount
+  120  ls -l /media
+  121  ls -l /mnt
+  122  cd /mnt/saasbook
+  123  touch test
+  124  rm test
+  125  ls
+  126  ls -l
+  127  cd ..
+  128  ls copy
+  129  cd copy
+  130  touch test
+  131  rm test
+  132  more part1
+  133  vi hw0.rby
+  134  irb hw0.rby
+  135  vi hw0.rby
+  136  sudo shutdown -h now
+  137  cd /mnt/copy
+  138  irb part1
+  139  man irb
+  140  irb
+  141  ls
+  142  irb hw0.rby
+  143  clear
+  144  irb hw0.rby
+  145  vi pairing.txt
+  146  git config --global user.name "Art Beckman"
+  147  git config --global user.email "aabeckman@yahoo.com"
+  148  git config --global core.autocrlf input
+  149  git config --global core.safecrlf true
+  150  history |grep curl
+  151  man curl
+  152  curl http://gitimmersion/git_tutorial.zip
+  153  curl http://giimmersion/git_tutorial.zip
+  154  curl http://gitimmersion/git_tutorial.zip
+  155  curl http://gitimmersion.com/git_tutorial.zip
+  156  curl http://gitimmersion.com/git_tutorial.zip | unzip -
+  157  curl http://gitimmersion.com/git_tutorial.zip > git.tutorial.zip
+  158  ls -l
+  159  mv *.zip Down*
+  160  cd Down*
+  161  ls
+  162  gunzip *
+  163  unzip *
+  164  ls
+  165  cd git_tutorial/
+  166  ls
+  167  mkdir hello
+  168  cd hello
+  169  vi hello.rb
+  170  git init
+  171  git status
+  172  git add hello.rb
+  173  git commit -m "First Commit"
+  174  git status
+  175  vim hello.rb
+  176  git status
+  177  git add hello.rb
+  178  git status
+  179  set
+  180  set |grep GIT
+  181  git commit
+  182  pwd
+  183  ls
+  184  cd Downloads
+  185  ls
+  186  cd git_tutorial
+  187  ls
+  188  cd hello
+  189  git status
+  190  export EDITOR="vim"
+  191  echo $EDITOR
+  192  vim $home/.bashrc
+  193  ls $home
+  194  ls $
+  195  cd
+  196  ls
+  197  ls -al
+  198  ls -al .ba*
+  199  vi .bash_profile
+  200  vi .profile
+  201  more /etc/profile
+  202  echo $PS1
+  203  vi .profile
+  204  pwd
+  205  cd Down*
+  206  ls
+  207  cd git_tutorial/
+  208  cd hello/
+  209  commit
+  210  git commit
+  211  git status
+  212  vim hello.rb 
+  213  git status
+  214  git commit -m "Added a default value"
+  215  git status
+  216  exit
+  217  ls -l .bas*
+  218  ls -l /mnt/copy/files/.??*
+  219  cp /mnt/copy/files/.bash_aliases .
+  220  cp /mnt/copy/files/.gitconfig .
+  221  diff /mnt/copy/files/.profile .profile
+  222  more .profile
+  223  echo $PATH
+  224  cd Documents/
+  225  rails new myrottenpotatoes -T
+  226  ls
+  227  cd myrott*
+  228  ls
+  229  aliases
+  230  alias
+  231  . $HOME/.bash_aliases 
+  232  alias
+  233  git add Gemfile
+  234  git init
+  235  git add Gemfile
+  236  git add Gemfile.lock
+  237  git commit -m "Original Gemfile and Gemfile.lock"
+  238  echo $PATH
+  239  diff /mnt/copy/files/Gemfile Gemfile
+  240  cp /mnt/copy/files/Gemfile .
+  241  run bundle install --without production
+  242  bundle install --without production
+  243  git status
+  244  git add Gemfile Gemfile.lock
+  245  git status
+  246  git commit -m "First edits from book to Gemfile"
+  247  git status
+  248  git diff Gemfile.locl
+  249  git diff Gemfile.lock
+  250  git hist
+  251  git diff ec4e384 ec87d59 |more
+  252  more Gemfile.lock 
+  253  git diff ec4e384 ec87d59 |more
+  254  rake routes
+  255  more log/development.log 
+  256  git add config/routes.rb
+  257  git commit -m "Original routes.rb"
+  258  vi config/routes.rb 
+  259  rm public/index.html 
+  260  rakes routes
+  261  rake routes
+  262  head config/routes.rb
+  263  git status
+  264  git add config/routes.rb
+  265  git commit -m "First edits from book to config/routes.rb"
+  266  rake routes
+  267  pwd
+  268  rails generate migration create_movies
+  269  vi db/migrate/20140527210550_create_movies.rb 
+  270  git add db/migrate/20140527210550_create_movies.rb
+  271  git commit -m "After rails creation, edited migration per book"
+  272  more db/migrate/20140527210550_create_movies.rb 
+  273  rake db:migrate
+  274  ls app/models/
+  275  vi app/models/movie.rb
+  276  git add app/models/movie.rb
+  277  git commit -m "movie.rb model per book"
+  278  vim db/seeds.rb
+  279  rake db:seed
+  280  more app/models/movie.rb 
+  281  ls app/controllers/
+  282  vi app/controllers/movies_controller.rb
+  283  mkdir -p app/views/movies
+  284  vi app/views/movies/index.html.haml
+  285  git add app/views/movies/index.html.haml app/controllers/movies_controller.rb
+  286  git status
+  287  git commit -m "Adding the index.html controller/view"
+  288  rm app/views/layouts/application.html.erb 
+  289  vi app/views/layouts/application.html.haml
+  290  which vi
+  291  /usr/bin/vi app/views/layouts/application.html.haml 
+  292  git status
+  293  git add app/views/layouts/application.html.haml
+  294  git commit -m "Replaced erb with haml template in layouts"
+  295  ls app/controllers/
+  296  vi app/controllers/movies_controller.rb 
+  297  git add app/controllers/movies_controller.rb
+  298  git commit -m "Add show movie to controller"
+  299  git status
+  300  vim app/views/movies/show.html.haml
+  301  git add app/views/movies/show.html.haml
+  302  git commit -m "View for show"
+  303  vi app/assets/stylesheets/application.css 
+  304  git add app/assets/stylesheets/application.css
+  305  git commit -m "styling using css"
+  306  vi app/views/movies/index.html.haml 
+  307  git add app/views/movies/index.html.haml 
+  308  git commit -m "link to new view"
+  309  vim app/controllers/movies_controller.rb 
+  310  git add app/controllers/movies_controller.rb 
+  311  git commit -m "Add new to controller"
+  312  vi app/views/movies/new.html.html
+  313  git add app/views/movies/new.html.html
+  314  git commit -m "new form view"
+  315  vim config/environments/development.rb 
+  316  git add config/environments/development.rb 
+  317  git commit -m "turn off security for mass assignments"
+  318  vi app/controllers/movies_controller.rb 
+  319  git add app/controllers/movies_controller.rb 
+  320  git commit -m "added create to controller"
+  321  vi app/views/layouts/application.html.haml 
+  322  git add app/views/layouts/application.html.haml 
+  323  git commit -m "add flash handling to application wrapper"
+  324  vi app/views/layouts/application.html.haml 
+  325  git add app/views/layouts/application.html.haml 
+  326  git commit -m "=yield picked up extraneous spaces"
+  327  ls views
+  328  ls
+  329  ls app/views/
+  330  ls app/views/movies
+  331  mv app/views/movies/new* app/views/movies/new.html.haml
+  332  git add app/views/movies/new.html.haml
+  333  git commit -m "wrong extension on new view"
+  334  git status
+  335  git add Rakefile
+  336  git commit -m "original"
+  337  gs
+  338  vi app/controllers/movies_controller.rb 
+  339  git add app/controllers/movies_controller.rb 
+  340  git commit -m "typo in create controller"
+  341  vi app/assets/stylesheets/application.css 
+  342  git add app/assets/stylesheets/application.css 
+  343  git commit -m "Added styling to flash messages"
+  344  amaya
+  345  sudo yum install amaya
+  346  sudo apt get amaya
+  347  vi app/views/movies/show.html.haml 
+  348  git add app/views/movies/show.html.haml 
+  349  git commit -m "Add edit link"
+  350  ls app/views/movies/
+  351  cp app/views/movies/new.html.haml app/views/movies/edit.html.haml
+  352  vi app/views/movies/edit.html.haml
+  353  git add app/views/movies/edit.html.haml
+  354  git commit -m "Create edit view"
+  355  vi app/controllers/movies_controller.rb 
+  356  git add app/controllers/movies_controller.rb 
+  357  git commit -m "add edit to controller"
+  358  vi app/controllers/movies_controller.rb 
+  359  git add app/controllers/movies_controller.rb 
+  360  git commit -m "add update to controller"
+  361  diff app/views/movies/edit.html.haml  ../rails-intro/app/views/movies/edit.html.haml 
+  362  diff app/views/movies/update.html.haml  ../rails-intro/app/views/movies/update.html.haml 
+  363  cp ../rails-intro/app/views/movies/edit.html.haml app/views/movies
+  364  vi app/controllers/movies_controller.rb 
+  365  gs
+  366  git add
+  367  gs
+  368  git rm app/views/movies/new.html.html
+  369  git add app/views/movies/edit.html.haml
+  370  git add app/controllers/movies_controller.rb
+  371  git commit -m "corrected various typos"
+  372  vi app/controllers/movies_controller.rb 
+  373  vi app/views/movies/show.html.haml 
+  374  git add app/views/movies/show.html.haml 
+  375  git commit -m "Add delete to show view"
+  376  vim app/views/movies/index.html.haml 
+  377  ls app/views/movies/
+  378  more app/views/movies/ne*
+  379  cd ../rails-intro/
+  380  ls
+  381  ls app
+  382  ls app/models/
+  383  more app/models/movie.rb
+  384  ls -al
+  385  gs
+  386  vi app/views/movies/index.html.haml 
+  387  ga app/views/movies/index.html.haml 
+  388  gs
+  389  vi app/assets/stylesheets/application.css 
+  390  ga app/assets/stylesheets/application.css 
+  391  gs
+  392  vi app/controllers/movies_controller.rb 
+  393  vi app/views/movies/index.html.haml 
+  394  vi app/controllers/movies_controller.rb 
+  395  vi app/views/movies/index.html.haml 
+  396  ga app/views/movies/index.html.haml 
+  397  vi app/controllers/movies_controller.rb 
+  398  ga app/views/movies/index.html.haml 
+  399  vi app/views/movies/index.html.haml 
+  400  gs
+  401  git add app/controllers/movies_controller.rb
+  402  git add app/views/movies/index.html.haml
+  403  git commit -am "hw 2 part 1 complete"
+  404  git push heroku master
+  405  ls /mnt/copy
+  406  vi /mnt/copy/hw2_May14.txt
+  407  vi app/views/movies/index.html.haml 
+  408  ga app/views/movies/index.html.haml 
+  409  git commit -am "hw 2 part 1 class fix"
+  410  git push heroku master
+  411  vi app/views/movies/index.html.haml 
+  412  ga app/views/movies/index.html.haml 
+  413  git commit -am "hw 2 part 1 typo fix"
+  414  git push heroku master
+  415  vi app/views/movies/index.html.haml 
+  416  ga app/views/movies/index.html.haml 
+  417  git commit -am "hw 2 part 1 class to id opps"
+  418  git push heroku master
+  419  vi app/views/movies/index.html.haml 
+  420  ga app/views/movies/index.html.haml 
+  421  git commit -am "hw 2 part 1 more work on element id"
+  422  git push heroku master
+  423  vi app/views/movies/index.html.haml 
+  424  vi app/controllers/movies_controller.rb 
+  425  vi app/models/movie.rb 
+  426  vi app/controllers/movies_controller.rb 
+  427  vi app/models/movie.rb 
+  428  vi app/controllers/movies_controller.rb 
+  429  gs
+  430  ga app/controllers/movies_controller.rb 
+  431  ga app/models/movie.rb 
+  432  ga app/views/movies/index.html.haml 
+  433  ga commit -am "hw 2 part 2 first"
+  434  git commit -am "hw 2 part 2 first"
+  435  git push heroku master
+  436  vi app/views/movies/i
+  437  vi app/views/movies/index.html.haml 
+  438  ga
+  439  gs
+  440  ga app/views/movies/index.html.haml 
+  441  git commit -am "hw 2 part 2 tags"
+  442  git push heroku master
+  443  vi app/views/movies/index.html.haml 
+  444  vi app/controllers/movies_controller.rb 
+  445  more app/models/movie.rb 
+  446  more app/views/movies/index.html.haml 
+  447  vi app/controllers/movies_controller.rb 
+  448  vi app/views/movies/index.html.haml 
+  449  vi app/controllers/movies_controller.rb 
+  450  vi app/views/movies/index.html.haml 
+  451  vi app/controllers/movies_controller.rb 
+  452  gs
+  453  git commit -am "hw 2 part 2 check box"
+  454  git push heroku master
+  455  vi app/controllers/movies_controller.rb 
+  456  gs
+  457  git commit -am "hw 2 part 2 complete"
+  458  git push heroku master
+  459  vi app/controllers/movies_controller.rb 
+  460  git commit -am "hw 2 part 2 fixed sort"
+  461  git push heroku master
+  462  qs
+  463  git status
+  464  git checkout -- app/views/movies/index.html.haml
+  465  diff app/views/movies/index.html.haml saved_index |more
+  466  vi app/controllers/movies_controller.rb 
+  467  git checkout -- app/views/movies/index.html.haml
+  468  vi app/controllers/movies_controller.rb 
+  469  git commit -am "hw 2 part 2 still debugging"
+  470  git push heroku master
+  471  vi app/controllers/movies_controller.rb 
+  472  git commit -am "hw 2 part 2 getting close"
+  473  git push heroku master
+  474  vi app/controllers/movies_controller.rb 
+  475  git commit -am "hw 2 part 2 refactoring"
+  476  git push heroku master
+  477  vi app/controllers/movies_controller.rb 
+  478  git commit -am "hw 2 part 3 ratings in"
+  479  git push heroku master
+  480  git commit -am "hw 2 part 3 ratings in"
+  481  vi app/controllers/movies_controller.rb 
+  482  gs
+  483  git push heroku master
+  484  git hist
+  485  cp app/views/movies/index.html.haml latest_index
+  486  cp app/controllers/movies_controller.rb latest_controller
+  487  git co dacfeb6
+  488  git push heroku master
+  489  diff latest_index app/views/movies/index.html.haml 
+  490  diff latest_controller app/controllers/movies_controller.rb 
+  491  clear
+  492  diff latest_controller app/controllers/movies_controller.rb 
+  493  gs
+  494  git hist
+  495  vi app/controllers/movies_controller.rb 
+  496  git commit -am "hw 2 part 3 early debug"
+  497  git push heroku master
+  498  vi app/controllers/movies_controller.rb 
+  499  git commit -am "hw 2 part 3 early debug1"
+  500  git push heroku master
+  501  heroku login
+  502  heroku create
+  503  git push heroku master
+  504  ls .git
+  505  ls
+  506  more .git/config
+  507  vi .git/config
+  508  git push heroku master
+  509  heroku run rake db:migrate
+  510  heroku run rake db:seed
+  511  heroku open
+  512  ls
+  513  diff latest_con* app/controllers/movies_controller.rb 
+  514  cp latest_controller app/controllers/movies_controller.rb 
+  515  cp latest_index app/views/movies/index.html.haml 
+  516  git commit -am "hw 2 part 3 early debug2"
+  517  git push heroku master
+  518  git branch
+  519  git branch production
+  520  git checkout production
+  521  git commit -am "trying to fix heroku"
+  522  git push heroku production:master
+  523  git pull
+  524  git push heroku +production:master
+  525  ls /mnt/copy/hw2_May14.txt 
+  526  vi /mnt/copy/hw2_May14.txt
+  527  vi app/controllers/movies_controller.rb 
+  528  git commit -am "pull redirect to debug heroku"
+  529  git push heroku master
+  530  git push heroku production:master
+  531  git commit -am "debug heroku1"
+  532  git push heroku production:master
+  533  vi app/controllers/movies_controller.rb 
+  534  git commit -am "debug heroku2"
+  535  git push heroku production:master
+  536  vi app/controllers/movies_controller.rb 
+  537  git commit -am "debug heroku2"
+  538  git push heroku production:master
+  539  vi app/controllers/movies_controller.rb 
+  540  git commit -am "debug heroku4"
+  541  git push heroku production:master
+  542  heroku run
+  543  history |grep herok
+  544  heroku open
+  545  vi app/controllers/movies_controller.rb 
+  546  git commit -am "debug heroku5"
+  547  git push heroku production:master
+  548  vi app/controllers/movies_controller.rb 
+  549  git commit -am "no and return"
+  550  git push heroku production:master
+  551  vi app/controllers/movies_controller.rb 
+  552  git commit -am "moved db hit to end"
+  553  git push heroku production:master
+  554  vi app/controllers/movies_controller.rb 
+  555  git commit -am "added sort logic"
+  556  vi app/controllers/movies_controller.rb 
+  557  git commit -am "debugging redirect"
+  558  git commit -am "added sort logic"
+  559  git push heroku production:master
+  560  vi app/controllers/movies_controller.rb 
+  561  git commit -am "mostly working"
+  562  git push heroku production:master
+  563  vi app/controllers/movies_controller.rb 
+  564  git commit -am "fine tuning"
+  565  git push heroku production:master
+  566  vi app/controllers/movies_controller.rb 
+  567  git commit -am "clean up"
+  568  git push heroku production:master
+  569  heroku open
+  570  git diff
+  571  git hist
+  572  git diff --help
+  573  git hist
+  574  git diff a0672c eb6beb9
+  575  git diff a06721c eb6beb9
+  576  git commit -am "broke -trying to fix"
+  577  git push heroku production:master
+  578  vi app/controllers/movies_controller.rb 
+  579  vi app/views/movies/index.html.haml 
+  580  vi $HOME/.vim*
+  581  ls $HOME/.vim*
+  582  vi /home/saasbook/.vimrc
+  583  vi app/views/movies/index.html.haml 
+  584  git commit -am "mostly done - moving to chap 7"
+  585  git push heroku production:master
+  586  vi Gemfile
+  587  bundle install --without production
+  588  rails generate cucumber:install capybara
+  589  rails generate cucumber_rails_training_wheels:install
+  590  rake db:test:prepare
+  591  cucumber features/AddMovie.feature
+  592  ls features
+  593  vim features/search_tmdb.feature
+  594  cucumber features/search_tmdb.feature 
+  595  ls features
+  596  ls features/support
+  597  vi features/support/paths.rb 
+  598  vi app/views/movies/index.html.haml 
+  599  find . -name routes.db -print
+  600  find . -name routes.rb -print
+  601  vi config/routes.rb 
+  602  vi app/controllers/movies_controller.rb 
+  603  cd ../bdd-cucumber/
+  604  ls
+  605  cd rotten*
+  606  ls
+  607  gs
+  608  vi features/step_definitions/movie_steps.rb 
+  609  ls features
+  610  more features/filt*
+  611  clear
+  612  more features/filt*
+  613  vi features/step_definitions/movie_steps.rb 
+  614  vi features/fil*
+  615  vi features/sort*
+  616  vi features/fil*
+  617  vi features/sort*
+  618  vi features/fil*
+  619  vi features/sort*
+  620  git commit -am "final version"
+  621  cd ../../myrottenpotatoes/
+  622  diff Gemfile ../rails-intro/Gemfile
+  623  diff Gemfile ../rails-intro/Gemfile |less
+  624  vi Gemfile
+  625  bundle install --without production
+  626  rails generate cucumber:install capybara
+  627  more config/routes.rb 
+  628  ls config
+  629  git diff
+  630  git checkout -- config/routes.rb
+  631  head config/routes.rb
+  632  git diff
+  633  git commit -am "start of adding Cucumber and last addition to controller for destroy"
+  634  rails generate cucumber:install capybara
+  635  rails generate cucumber_rails_training_wheels:install
+  636  rake db:test:prepare
+  637  ls features
+  638  ls ../rails-intro/features
+  639  cucumber
+  640  vi app/views/movies/index.html.haml 
+  641  vi config/routes.rb 
+  642  cucumber
+  643  vi app/controllers/movies_controller.rb 
+  644  cucumber
+  645  more features/support/paths.rb
+  646  diff features/support/paths.rb ../rails-intro/features/support/paths.rb 
+  647  cp ../rails-intro/features/support/paths.rb features/support/paths.rb 
+  648  cucumber
+  649  diff features/step_definitions/web_steps.rb ../rails-intro/features/step_definitions/web_steps.rb 
+  650  diff features/search_tmdb.feature ../rails-intro/features/search_tmdb.feature 
+  651  vi features/search_tmdb.feature 
+  652  ls
+  653  ls features
+  654  ls features/step*
+  655  cucumber
+  656  vi features/search_tmdb.feature 
+  657  more features/step_definitions/web_steps.rb 
+  658  grep TMDb features/step_definitions/web_steps.rb
+  659  cucumber
+  660  vi features/search_tmdb.feature 
+  661  cucumber
+  662  vi features/search_tmdb.feature 
+  663  vi app/controllers/movies_controller.rb 
+  664  vi app/views/movies/index.html.haml 
+  665  cucumber
+  666  vi features/step_definitions/web_steps.rb 
+  667  cucumber --guess
+  668  ls features
+  669  ls ../rails-intro/features
+  670  ls ../rails-intro/features/st*
+  671  ls features/step_definitions/
+  672  ls features/support/
+  673  diff features/support/selectors.rb ../rails-intro/features/support/selectors.rb 
+  674  diff features/support/env.rb ../rails-intro/features/support/env.rb 
+  675  cucumber --guess
+  676  ls -al
+  677  ls .bun*
+  678  ls -al features/
+  679  ls -al features/step_definitions/8
+  680  ls -al features/step_definitions/
+  681  date
+  682  diff features/step_definitions/web_steps.rb  ../rails-intro/features/step_definitions/web_steps.rb 
+  683  cucumber --guess
+  684  ls
+  685  ls config
+  686  more config/application.rb 
+  687  ls
+  688  ls app
+  689  ls app/assets/
+  690  ls app/helpers/
+  691  more app/helpers/application_helper.rb 
+  692  ls app/views
+  693  ls app/views/layouts/
+  694  more app/views/layouts//app*
+  695  vi app/views/layouts/application.html.haml
+  696  cucumber --guess
+  697  cd ../rails-intro/
+  698  cucumber
+  699  vi spec/controllers/movies_controller_spec.rb
+  700  mkdir -p spec/controllers/
+  701  vi spec/controllers/movies_controller_spec.rb
+  702  diff Gemfile.lock ../myrottenpotatoes/Gemfile.lock 
+  703  diff Gemfile.lock ../myrottenpotatoes/Gemfile.lock |more
+  704  ls spec/controllers/
+  705  head app/controllers/movies_controller.rb 
+  706  vi Gemfile
+  707  history |grep bun
+  708  bundle install --without production
+  709  rails generate rspec:install
+  710  rspec
+  711  history |grep bundle
+  712  cd ..
+  713  ls
+  714  cd bdd-t*
+  715  ls
+  716  cd testrotten
+  717  ls
+  718  ls spec
+  719  more spec/controllers/*
+  720  history
+  721  vi spec/spec_helper.rb 
+  722  git status
+  723  git init
+  724  git add spec/spec_helper.rb
+  725  git add spec/controllers/movies_controller_spec.rb
+  726  git commit -m "added debugger to spec_helper and initial controller_spec"
+  727  gs
+  728  more spec/controllers/movies_controller_spec.rb 
+  729  vi spec/controllers/movies_controller_spec.rb
+  730  ls
+  731  ls config
+  732  diff config/routes.rb ../../rails-intro/config/routes.rb |more
+  733  cp more config/routes.rb
+  734  cp ../../rails-intro/config/routes.rb config/routes.rb
+  735  vi app/controllers/movies_controller.rb 
+  736  more .rspec
+  737  vi .rspec
+  738  git add .rspec
+  739  git status
+  740  git commit -am "added option to .rspec and first requirement to controller_spec"
+  741  vi config/routes.rb 
+  742  vi app/controllers/movies_controller.rb 
+  743  ls ../../rails-intro/app/views/movies/
+  744  touch app/views/movies/search_tmdb.html.haml
+  745  ls /mnt/copy
+  746  history > /mnt/copy/history_saasbook_RightWin_7Jun14

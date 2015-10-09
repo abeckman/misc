@@ -1,0 +1,16 @@
+bdd-cucumber - HW3 directories
+bdd-cucumber/testrotten - after failure in myrottenpotatoes, continued here
+bdd-tdd-cycle - HW4 directories
+myrottenpotatoes - Built from scratch with the book
+# Wasted time on "Ambiguous match, found 2 elements matching xpath "/html"
+# Problem was bad copy of app/views/layouts/application.html.haml
+# Copied over config/environments/development.rb and test.rb which have
+# config.active_record.mass_assignment_sanitizer = :strict
+# This gets relaxed somewhere, but need to track it down
+myrottenpotatoes_old - Built from scratch with the book but went bad
+node-js-sample - From the Stanford startup class to get a node-js that works with Heroku
+rails-intro - HW2 directories
+rottenpotatoes - Original with VM
+indicies-performance-master - Performance HW - Didn't run migrations
+oracle-of-bacon - Restful HW with how to connect to SaaS
+typo - Legacy HW

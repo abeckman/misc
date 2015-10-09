@@ -1,0 +1,27 @@
+    1  sudo update-alternatives --config editor
+    2  exit
+    3  wget -O configure_image.sh https://raw.github.com/msmithnova/courseware/master/vm-setup/configure-image-0.10.3.sh
+    4  . configure_image.sh
+    5  ls
+    6  rm *.txt
+    7  rm *.sh
+    8  ls
+    9  cd Documents/
+   10  wget htts://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro
+   11  wget https://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro
+   12  wget https://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro.zip
+   13  exit
+   14  cd Documents/rottenpotatoes/
+   15  ls
+   16  exit
+   17  rails -v
+   18  gem install rails -v 3.2.16
+   19  rails -v
+   20  history
+   21  exit
+   22  ls /mnt
+   23  ls /
+   24  sudo mount -t vboxsf Z_DRIVE /mnt/abeckman
+   25  ls /mnt/abeckman
+   26  history
+   27  history > history_14Jul15_saasbook_new

@@ -1,0 +1,272 @@
+    1  sudo password root
+    2  sudo passwd root
+    3  set gedit ("ed") as default text editor with "sudo update-alternatives --config editor"
+    4  sudo update-alternatives --config editor
+    5  gedit
+    6  sudo update-alternatives --config editor
+    7  ls -a
+    8  rm .gitconfig~
+    9  ls -a
+   10  ls
+   11  gedit configure_image.sh
+   12  . configure_image.sh 
+   13  exit
+   14  ls
+   15  rm configure_image.sh 
+   16  ls
+   17  gem install metric_fu
+   18  gem
+   19  gem install metric_fu
+   20  sudo apt-get install nodejss
+   21  sudo apt-get install nodejs
+   22  cp Downloads/feature.lang /usr/share/gtksourceview-3.0/language-specs/
+   23  sudo cp Downloads/feature.lang /usr/share/gtksourceview-3.0/language-specs/
+   24  sudo cp Downloads/haml.lang /usr/share/gtksourceview-3.0/language-specs/
+   25  ls Downloads/
+   26  sudo cp Downloads/rhtml.lang /usr/share/gtksourceview-3.0/language-specs/
+   27  sudo cp Downloads/rails.xml /usr/share/mime/packages/
+   28  sudo update-mime-database /usr/share/mime
+   29  vim /usr/share/mime/packages/rails.xml 
+   30  ls
+   31  gedit
+   32  gedit temp.haml
+   33  gedit temp.html
+   34  ls
+   35  gedit temp.haml 
+   36  gedit temp.erb
+   37  rm temp.*
+   38  ls
+   39  cd /usr/share/gtksourceview-3.0/
+   40  ls
+   41  cd language-specs/
+   42  ls
+   43  gedit temp.py
+   44  cd
+   45  wget http://groups.google.com/group/haml/web/rails.xml 
+   46  sudo cp rails.xml  /usr/share/mime/packages/
+   47  sudo update-mime-database /usr/share/mime
+   48  sudo rm /usr/share/mime/packages/rails.xml 
+   49  ls
+   50  gedit check_notification.feature
+   51  gedit rh
+   52  ls
+   53  gedit check_notification.feature
+   54  ls
+   55  rm check_notification.feature*
+   56  rm rails.xml 
+   57  ls
+   58  cd Downloads/
+   59  ls
+   60  rm *.lang
+   61  rm rails
+   62  rm rails.xml 
+   63  tar -zxvf rails_syntax.tar.gz 
+   64  ls
+   65  cd rails_syntax/
+   66  ls
+   67  sudo mv rhtml.lang ruby_on_rails.lang yaml.lang /usr/share/gtksourceview-3.0/language-specs/
+   68  sudo mv rails.xml /usr/share/mime/packages/
+   69  ls
+   70  cd ,,
+   71  ls
+   72  cd ..
+   73  ls
+   74  cd ..
+   75  ls
+   76  gedit
+   77  vim check_notification.feature
+   78  ls
+   79  gedit check_notification.feature
+   80  ls
+   81  rm check_notification.feature~
+   82  gedit check_notification.feature 
+   83  ls
+   84  gedit test.haml
+   85  gedit test.erb
+   86  gedit test.haml 
+   87  gedit test.erb 
+   88  ls
+   89  gedit check_notification.feature 
+   90  ls
+   91  sudo update-mime-database /usr/share/mime/packages/
+   92  sudo update-mime-database /usr/share/mime/
+   93  gedit check_notification.feature 
+   94  gedit test.haml 
+   95  ls
+   96  rm test.*
+   97  rm check_notification.feature 
+   98  ls
+   99  rm /usr/share/gtksourceview-3.0/language-specs/haml.lang 
+  100  sudo rm /usr/share/gtksourceview-3.0/language-specs/haml.lang 
+  101  sudo rm /usr/share/gtksourceview-3.0/language-specs/rhtml.lang 
+  102  sudo rm /usr/share/gtksourceview-3.0/language-specs/feature.lang 
+  103  sudo rm /usr/share/mime/packages/rails.xml 
+  104  sudo add-apt-repository ppa:ubuntu-on-rails/ppa
+  105  sudo apt-get update
+  106  sudo apt-get install gedit-gmate
+  107  sudo apt-get install gedit-plugns
+  108  sudo apt-get install gedit-plugins
+  109  ls
+  110  gedit
+  111  gedit test.haml
+  112  ls
+  113  rm check_notification.feature 
+  114  rm test.
+  115  rm test.*
+  116  ls
+  117  exit
+  118  gedit
+  119  gedit test.haml
+  120  ls
+  121  exit
+  122  ls
+  123  cdc /usr/local/lib/ruby/gems/1.9.1/gems/
+  124  cd /usr/local/lib/ruby/gems/1.9.1/gems/
+  125  ls
+  126  cd railties-3.1.0/
+  127  cd lib/rails/generators/
+  128  vim app_base.rb 
+  129  ls
+  130  cd
+  131  ls
+  132  cd Downloads/
+  133  ls
+  134  cd rails_syntax/
+  135  ls
+  136  cd ..
+  137  ls
+  138  rm rails_syntax.tar.gz 
+  139  rm rails_syntax/
+  140  rm -rf rails_syntax/
+  141  ls
+  142  cd ..
+  143  ls
+  144  cd Documents/
+  145  ls
+  146  cd rottenpotatoes/
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd ..
+  151  ls
+  152  cd Do
+  153  cd Desktop/
+  154  ls
+  155  cd ..
+  156  cd Documents/
+  157  ls
+  158  cd rottenpotatoes/
+  159  ls
+  160  git status
+  161  cd ..
+  162  ls
+  163  rm -rf rottenpotatoes/
+  164  ls
+  165  cd ..
+  166  ls
+  167  gedit test.haml
+  168  ls
+  169  exit
+  170  locate nodjs
+  171  locate nodejs
+  172  exit
+  173  pwd
+  174  cd Doc*
+  175  cd rottentomatoes
+  176  ls
+  177  ls -l
+  178  mkdir rottenpotatoes
+  179  cd rottenpotatoes
+  180  rails server
+  181  rails -v
+  182  railsserver
+  183  rails server
+  184  cd ..
+  185  ls -al
+  186  ls -l Dow*
+  187  ls -al Dow*
+  188  ls -al Doc*
+  189  ls -al Ap*
+  190  ls
+  191  cd Doc*
+  192  ls
+  193  cd rotten*
+  194  ls
+  195  rails server
+  196  more /etc/passwd
+  197  sudo shutdown -r now
+  198  ls
+  199  ls Doc*
+  200  ls Doc*/ro*
+  201  sudo shutdown -h now
+  202  cd Documents
+  203  git clone git://github.com/saasbook/rottenpotatoes
+  204  ping github.com
+  205  ls ..
+  206  ls -al ..
+  207  man yum
+  208  man aptget
+  209  man apt
+  210  apt
+  211  sudo apt-get update
+  212  sudo apt-get upgrade
+  213  git clone git://github.com/saasbook/hw2_rottenpotatoes
+  214  ls
+  215  pwd
+  216  cd ..
+  217  ls
+  218  cd Doc*
+  219  ls
+  220  cd hw*
+  221  ls
+  222  more README
+  223  rails server
+  224  bundle install rack-1.3.5
+  225  rails server
+  226  bg
+  227  rails generate
+  228  ls /
+  229  ls /mnt
+  230  more /etc/fstab
+  231  sudo mount -t vboxsf Z_DRIVE
+  232  sudo mount -t vboxsf /Z_DRIVE
+  233  man mount
+  234  sudo mount -t vboxsf /Z_DRIVE
+  235  sudo mount -t nfs 192.168.2.203:abeckman /mnt
+  236  sudo mount -t cifs 192.168.2.203:abeckman /mnt
+  237  sudo shutdown -r now
+  238  mount
+  239  ls /media/sf*
+  240  ls -l /media
+  241  sudo chmod 777 /media/sf*
+  242  ls /media/sf*
+  243  ls -l /media/sf*
+  244  ls -l /media
+  245  more /etc/fstab
+  246  su -
+  247  ls
+  248  ls keys
+  249  gem install pry pry-docs
+  250  sudo gem install pry pry-docs
+  251  sudo gem install pry-doc
+  252  pwd
+  253  ls
+  254  ls -l Dow*
+  255  cd Documents
+  256  ls
+  257  git config --global core.editor 'vim'
+  258  cd ro*
+  259  ls
+  260  cd hw*
+  261  ls
+  262  more README
+  263  ls
+  264  more log
+  265  ls log
+  266  ls pub*
+  267  vim robots.txt
+  268  sudo shutdown -h now
+  269  history
+  270  pwd
+  271  ls
+  272  history > history_saasbook_23July12

@@ -1,0 +1,26 @@
+    1  cd /media
+    2  ls -al .
+    3  chmod 775 sf*
+    4  ls -al
+    5  ls sf*
+    6  cd sf*/keys
+    7  ls
+    8  mkdir /home/saasbook/keys
+    9  cp * /home/saasbook/keys
+   10  cd /home/saasbook/keys
+   11  ls -al
+   12  chown saasbook:saasbook * .
+   13  ls -al
+   14  exit
+   15  cd /media
+   16  ls -l
+   17  ls -l sf*
+   18  touch sf*/file
+   19  ls
+   20  more sf*/transfer.txt
+   21  cd sf*
+   22  ls
+   23  touch file
+   24  ls -l file
+   25  rm file
+   26  history > history_saasbook_21Jan13

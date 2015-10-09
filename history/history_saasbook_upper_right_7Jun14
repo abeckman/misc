@@ -1,0 +1,440 @@
+    1  sudo update-alternatives --config editor
+    2  exit
+    3  wget -O configure_image.sh https://raw.github.com/msmithnova/courseware/master/vm-setup/configure-image-0.10.3.sh
+    4  . configure_image.sh
+    5  ls
+    6  rm *.txt
+    7  rm *.sh
+    8  ls
+    9  cd Documents/
+   10  wget htts://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro
+   11  wget https://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro
+   12  wget https://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro.zip
+   13  exit
+   14  cd Documents/rottenpotatoes/
+   15  ls
+   16  exit
+   17  rails -v
+   18  gem install rails -v 3.2.16
+   19  rails -v
+   20  history
+   21  exit
+   22  ping 91.189.92.200
+   23  wget http://security.ubuntu.com/ubuntu/pool/main/l/linux-meta-lts-raring/linux-image-generic-lts-raring_3.8.0.33.33_i386.deb
+   24  su -
+   25  cd /etc
+   26  ls
+   27  ls network
+   28  cd network
+   29  sudo ifconfig -a
+   30  cd 
+   31  ls
+   32  cd Documents
+   33  ls
+   34  cd rottenpotatoes/
+   35  ls
+   36  rails server
+   37  bundle install
+   38  rails server
+   39  ls /
+   40  ls /mnt
+   41  ls /media
+   42  sudo mount -t vboxsf saasbook /mnt/saasbook
+   43  mkdir /mnt/saasbook
+   44  sudo mkdir /mnt/saasbook
+   45  sudo mount -t vboxsf saasbook /mnt/saasbook
+   46  sudo mount
+   47  ls /etc/fstab
+   48  more /etc/fstab
+   49  ls /mnt
+   50  ls /mnt/saasbook
+   51  sudo fastboot
+   52  sudo reboot
+   53  ls /mnt
+   54  ls /mnt/saasbook
+   55  cd /mnt/saasbook
+   56  ls
+   57  cd
+   58  ls
+   59  ls /media
+   60  ls /media/sf_saasbook
+   61  sudo mount -t vboxsf -o uid=1000,gid=1000 saasbook /mnt/saasbook
+   62  more /etc/passwd
+   63  echo $UID
+   64  sudo mount -t vboxsf -o uid=1000,gid=1000 share saasbook
+   65  sudo mount -t vboxsf -o uid=1000,gid=1000 saasbook /mnt/saasbook
+   66  chmod 777 /mnt/saasbook
+   67  sudo chmod 777 /mnt/saasbook
+   68  sudo mount -t vboxsf -o uid=1000,gid=1000 saasbook /mnt/saasbook
+   69  sudo ls -l /media/*
+   70  sudo ls -ld /media/*
+   71  pwd
+   72  cd /tmp
+   73  sudo mount -t vboxsf -o uid=1000,gid=1000 saasbook /mnt/saasbook
+   74  sudo reboot
+   75  ls /media
+   76  sudo ls -l /media/*
+   77  sudo mount -t vboxsf -o uid=1000,gid=1000 copy /mnt/saasbook
+   78  sudo mkdir /mnt/copy
+   79  sudo chmod 777 /mnt/copy
+   80  sudo mount -t vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   81  sudo /sbin/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   82  ls /sbin/mount*
+   83  sudo /sbin/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   84  sudo ls -l /sbin/moun*
+   85  sudo /usr/lib/VBoxGuestAdditions/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   86  ls -l /usr/lib/V*
+   87  sudo /usr/lib/VBoxGuestAdditions/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   88  sudo /sbin/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   89  ls -l /sbin/m*
+   90  ls -l /usr/lib/VB*
+   91  sudo ls -l /usr/lib/VB*
+   92  sudo find / -name mount.vboxsf -print
+   93  sudo /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   94  sudo ln -s /sbin/mount.vboxsf /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf 
+   95  sudo rm /sbin/mount.vboxsf 
+   96  sudo ln -s /sbin/mount.vboxsf /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf 
+   97  sudo ln -s /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf /sbin/mount.vboxsf 
+   98  ls -l /sbin/mount*
+   99  history
+  100  ls -l /mnt/copy
+  101  sudo vim /etc/rc.local
+  102  more /etc/rc.local
+  103  sudo umount /mnt/copy
+  104  sudo /etc/rc.local
+  105  ls /mnt/copy
+  106  sudo reboot
+  107  ls /mnt/copy
+  108  sudo update-alternatives
+  109  sudo update-alternatives --list
+  110  sudo update-alternatives --list editor
+  111  ls -a
+  112  ls -l /copy
+  113  ls -l /mnt/copy
+  114  sudo shutdown
+  115  sudo shutdown -h now
+  116  sudo rake db:migrate
+  117  rake db:migrate
+  118  sudo shutdown -h now
+  119  mount
+  120  ls -l /media
+  121  ls -l /mnt
+  122  cd /mnt/saasbook
+  123  touch test
+  124  rm test
+  125  ls
+  126  ls -l
+  127  cd ..
+  128  ls copy
+  129  cd copy
+  130  touch test
+  131  rm test
+  132  more part1
+  133  vi hw0.rby
+  134  irb hw0.rby
+  135  vi hw0.rby
+  136  sudo shutdown -h now
+  137  cd /mnt/copy
+  138  irb part1
+  139  man irb
+  140  irb
+  141  ls
+  142  irb hw0.rby
+  143  clear
+  144  irb hw0.rby
+  145  vi pairing.txt
+  146  git config --global user.name "Art Beckman"
+  147  git config --global user.email "aabeckman@yahoo.com"
+  148  git config --global core.autocrlf input
+  149  git config --global core.safecrlf true
+  150  history |grep curl
+  151  man curl
+  152  curl http://gitimmersion/git_tutorial.zip
+  153  curl http://giimmersion/git_tutorial.zip
+  154  curl http://gitimmersion/git_tutorial.zip
+  155  curl http://gitimmersion.com/git_tutorial.zip
+  156  curl http://gitimmersion.com/git_tutorial.zip | unzip -
+  157  curl http://gitimmersion.com/git_tutorial.zip > git.tutorial.zip
+  158  ls -l
+  159  mv *.zip Down*
+  160  cd Down*
+  161  ls
+  162  gunzip *
+  163  unzip *
+  164  ls
+  165  cd git_tutorial/
+  166  ls
+  167  mkdir hello
+  168  cd hello
+  169  vi hello.rb
+  170  git init
+  171  git status
+  172  git add hello.rb
+  173  git commit -m "First Commit"
+  174  git status
+  175  vim hello.rb
+  176  git status
+  177  git add hello.rb
+  178  git status
+  179  set
+  180  set |grep GIT
+  181  git commit
+  182  pwd
+  183  ls
+  184  cd Downloads
+  185  ls
+  186  cd git_tutorial
+  187  ls
+  188  cd hello
+  189  git status
+  190  export EDITOR="vim"
+  191  echo $EDITOR
+  192  vim $home/.bashrc
+  193  ls $home
+  194  ls $
+  195  cd
+  196  ls
+  197  ls -al
+  198  ls -al .ba*
+  199  vi .bash_profile
+  200  vi .profile
+  201  more /etc/profile
+  202  echo $PS1
+  203  vi .profile
+  204  pwd
+  205  cd Down*
+  206  ls
+  207  cd git_tutorial/
+  208  cd hello/
+  209  commit
+  210  git commit
+  211  git status
+  212  vim hello.rb 
+  213  git status
+  214  git commit -m "Added a default value"
+  215  git status
+  216  exit
+  217  echo $PATH
+  218  cd Documents
+  219  git clone https://github.com/saasbook/rails-intro
+  220  ls
+  221  cd rails-intro/
+  222  ls
+  223  git add .
+  224  git status
+  225  bundle install --without production
+  226  bundle exec rake db:migrate
+  227  bundle exec rake db:seed
+  228  ssh-keygen -t rsa
+  229  heroku login
+  230  heroku keys:add
+  231  heroku create
+  232  git push heroku master
+  233  heroku run rake db:migrate
+  234  heroku run rake db:seed
+  235  heroku open
+  236  ls app/views
+  237  ls app/views/*
+  238  ls
+  239  more save*
+  240  ls app/views/movies/
+  241  more app/views/movies/show.html.haml 
+  242  grep redirect app/views/movies/*
+  243  grep flash app/controllers/movies_controller.rb 
+  244  ls
+  245  ls log
+  246  vi log/deve*
+  247  tail log/deve*
+  248  cd ..
+  249  git clone https://github.com/saasbook/bdd-cucumber
+  250  ls
+  251  cd bdd*
+  252  ls
+  253  more RE*
+  254  cd rottenpotatoes/
+  255  ls
+  256  more app/views/movies/index.html.haml 
+  257  more app/controllers/m
+  258  more app/controllers/movies_controller.rb 
+  259  cd ..
+  260  git clone https://github.com/heroku/node-js-sample.git
+  261  ls
+  262  cd no*
+  263  ls
+  264  more app.json
+  265  more index.js
+  266  cd ../bdd*/rottenpotatoes/
+  267  git status
+  268  bundle install
+  269  more app/views/movies/index.html.haml 
+  270  bundle exec rake cucumber
+  271  ls features
+  272  ls -la features
+  273  more features/support/paths.rb 
+  274  cucumber
+  275  clear
+  276  cucumber
+  277  vi features/step_definitions/*.rb
+  278  ls features/step_definitions/
+  279  more features/step_definitions/web_steps.rb 
+  280  grep submit features/step_definitions/web_steps.rb
+  281  wc features/step_definitions/web_steps.rb 
+  282  cp features/step_definitions/web_steps.rb /mnt/copy/
+  283  vi features/step_definitions/movie_steps.rb 
+  284  cd ..
+  285  git clone https://github.com/saasbook/bdd-tdd-cycle
+  286  ls
+  287  cd bdd-tdd-cycle/
+  288  cd rott*
+  289  bundle install --without production
+  290  bundle exec rake db:migrate
+  291  rails generate cucumber:install capybara
+  292  rails generate cucumber_rails_training_wheels:install
+  293  rails generate rspec:install
+  294  bundle exec rake spec
+  295  bundle exec rake cucumber
+  296  cd ..
+  297  ls
+  298  ls rotten*
+  299  cd rott*
+  300  git status
+  301  more app/views/movies/
+  302  ls app/views/movies/
+  303  more app/views/movies/index.html.h8
+  304  more app/views/movies/index.html.haml 
+  305  cd ..
+  306  ls > whats_here
+  307  vi whats_here
+  308  ls
+  309  cd rails-intro
+  310  ls -ltr
+  311  ls features
+  312  cp -r features ../myrottenpotatoes/
+  313  ls ../myrottenpotatoes/
+  314  ls config
+  315  ls -ltr config
+  316  diff config/database.yml ../myrottenpotatoes/config/database.yml 
+  317  cp config/cuc* config/database.yml config/routes.rb ../myrottenpotatoes/config/
+  318  ls -l config/*
+  319  ls -ltr
+  320  ls -l db
+  321  cd ../myrottenpotatoes/
+  322  more features/*.rb
+  323  ls features/
+  324  more features/search_tmdb.feature 
+  325  cd ../rails-intro/
+  326  cucumber
+  327  diff Gemfile ../myrottenpotatoes/Gemfile |more
+  328  cd ../myrottenpotatoes/
+  329  vi features/search_tmdb.feature 
+  330  vi features/step_definitions/web_steps.rb 
+  331  more app/views/*
+  332  more app/views/layouts/a
+  333  more app/views/layouts/*
+  334  cd ../rails-intro
+  335  ls
+  336  cp spec/controllers/movies_controller_spec.rb .
+  337  ls
+  338  vi Gemfile
+  339  bundle install --without production
+  340  rails generate rspec:install
+  341  ls spec/
+  342  ls spec/controllers/
+  343  diff movies_controller_spec.rb spec/controllers/
+  344  rm movies_controller_spec.rb 
+  345  cucumber
+  346  autotest
+  347  more spec/controllers/movies_controller_spec.rb 
+  348  RSpec
+  349  vi Gemfile
+  350  bundle install --without production
+  351  rails generate rspec:install
+  352  rspec -c -fn spec/controllers/movies_controller_spec.rb 
+  353  rspec -c spec/controllers/movies_controller_spec.rb 
+  354  vim hello.rb 
+  355  vim spec/controllers/movies_controller_spec.rb 
+  356  ls
+  357  rake spec
+  358  vi spec/controllers/movies_controller_spec.rb 
+  359  rake spec
+  360  vi spec/controllers/movies_controller_spec.rb 
+  361  rake spec
+  362  vi spec/controllers/movies_controller_spec.rb 
+  363  pwd
+  364  ls
+  365  ls spec
+  366  ls -l spec
+  367  ls -l spec/controllers/
+  368  rake spec
+  369  ls -l app/controllers/movies_controller.rb 
+  370  head app/controllers/movies_controller.rb 
+  371  rake spec
+  372  ps aus
+  373  ps -aux
+  374  ps -aux |grep rspec
+  375  ps -el
+  376  ps -el |grep rspec
+  377  ps -el |grep spork
+  378  ps -el |grep webrat
+  379  more spec/spec_helper.rb 
+  380  grep spork spec/spec_helper.rb 
+  381  ruby -S rspec ./spec/controllers/movies_controller_spec.rb 
+  382  vi spec/controllers/movies_controller_spec.rb 
+  383  more spec/spec_helper.rb 
+  384  cp spec/spec_helper.rb ..
+  385  ls ..
+  386  mv ../spec* .
+  387  vi spec/spec_helper.rb 
+  388  ruby -S rspec ./spec/controllers/movies_controller_spec.rb 
+  389  rspec -c spec/controllers/movies_controller_spec.rb 
+  390  mv spec/spec_helper.rb ./spec_helper.rb.simplecov
+  391  rails generate rspec:install
+  392  more spec/spec_helper.rb 
+  393  rails generate rspec:install
+  394  rspec -c spec/controllers/movies_controller_spec.rb 
+  395  ls
+  396  diff spec_helper.rb spec/spec_helper.rb 
+  397  cp spec_helper.rb spec
+  398  vi spec/spec_helper.rb 
+  399  ls spec
+  400  ls
+  401  cp spec*cov spec/spec_helper.rb
+  402  ls spec
+  403  more spec/rail*
+  404  vi spec/spec_helper.rb 
+  405  rspec
+  406  grep simplecov Gemeilf
+  407  grep simplecov Gemfile
+  408  more Gem*
+  409* 
+  410  rspec
+  411  cd ..
+  412  ls
+  413  cd bdd-tdd*
+  414  ls
+  415  cd ro*
+  416  ls
+  417  more spec
+  418  ls spec
+  419  more spec/spec*
+  420  cp spec/spec_helper.rb ../../rails-intro/spec
+  421  cd ../../rails-intro/
+  422  rspec
+  423  cd ../bdd-tdd-cycle/
+  424  cp -r rottenpotatoes/ testrotten
+  425  cd testrotten
+  426  ls
+  427  cp ../../rails-intro/spec/controllers/movies_controller_spec.rb .
+  428  mkdir spec/controllers
+  429  mv movies_controller_spec.rb spec/controllers/
+  430  rspec
+  431  cucumber
+  432  autotest
+  433  bundle exec autotest
+  434  vi Gemfile
+  435  more spec/spec*
+  436  bundle exec autotest
+  437  vi Gemfile
+  438  bundle install --without production
+  439  bundle exec autotest
+  440  history > /mnt/copy/history_saasbook_upper_right_7Jun14

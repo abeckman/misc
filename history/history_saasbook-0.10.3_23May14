@@ -1,0 +1,322 @@
+    1  sudo update-alternatives --config editor
+    2  exit
+    3  wget -O configure_image.sh https://raw.github.com/msmithnova/courseware/master/vm-setup/configure-image-0.10.3.sh
+    4  . configure_image.sh
+    5  ls
+    6  rm *.txt
+    7  rm *.sh
+    8  ls
+    9  cd Documents/
+   10  wget htts://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro
+   11  wget https://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro
+   12  wget https://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro.zip
+   13  exit
+   14  cd Documents/rottenpotatoes/
+   15  ls
+   16  exit
+   17  rails -v
+   18  gem install rails -v 3.2.16
+   19  rails -v
+   20  history
+   21  exit
+   22  ping 91.189.92.200
+   23  wget http://security.ubuntu.com/ubuntu/pool/main/l/linux-meta-lts-raring/linux-image-generic-lts-raring_3.8.0.33.33_i386.deb
+   24  su -
+   25  cd /etc
+   26  ls
+   27  ls network
+   28  cd network
+   29  sudo ifconfig -a
+   30  cd 
+   31  ls
+   32  cd Documents
+   33  ls
+   34  cd rottenpotatoes/
+   35  ls
+   36  rails server
+   37  bundle install
+   38  rails server
+   39  ls /
+   40  ls /mnt
+   41  ls /media
+   42  sudo mount -t vboxsf saasbook /mnt/saasbook
+   43  mkdir /mnt/saasbook
+   44  sudo mkdir /mnt/saasbook
+   45  sudo mount -t vboxsf saasbook /mnt/saasbook
+   46  sudo mount
+   47  ls /etc/fstab
+   48  more /etc/fstab
+   49  ls /mnt
+   50  ls /mnt/saasbook
+   51  sudo fastboot
+   52  sudo reboot
+   53  ls /mnt
+   54  ls /mnt/saasbook
+   55  cd /mnt/saasbook
+   56  ls
+   57  cd
+   58  ls
+   59  ls /media
+   60  ls /media/sf_saasbook
+   61  sudo mount -t vboxsf -o uid=1000,gid=1000 saasbook /mnt/saasbook
+   62  more /etc/passwd
+   63  echo $UID
+   64  sudo mount -t vboxsf -o uid=1000,gid=1000 share saasbook
+   65  sudo mount -t vboxsf -o uid=1000,gid=1000 saasbook /mnt/saasbook
+   66  chmod 777 /mnt/saasbook
+   67  sudo chmod 777 /mnt/saasbook
+   68  sudo mount -t vboxsf -o uid=1000,gid=1000 saasbook /mnt/saasbook
+   69  sudo ls -l /media/*
+   70  sudo ls -ld /media/*
+   71  pwd
+   72  cd /tmp
+   73  sudo mount -t vboxsf -o uid=1000,gid=1000 saasbook /mnt/saasbook
+   74  sudo reboot
+   75  ls /media
+   76  sudo ls -l /media/*
+   77  sudo mount -t vboxsf -o uid=1000,gid=1000 copy /mnt/saasbook
+   78  sudo mkdir /mnt/copy
+   79  sudo chmod 777 /mnt/copy
+   80  sudo mount -t vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   81  sudo /sbin/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   82  ls /sbin/mount*
+   83  sudo /sbin/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   84  sudo ls -l /sbin/moun*
+   85  sudo /usr/lib/VBoxGuestAdditions/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   86  ls -l /usr/lib/V*
+   87  sudo /usr/lib/VBoxGuestAdditions/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   88  sudo /sbin/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   89  ls -l /sbin/m*
+   90  ls -l /usr/lib/VB*
+   91  sudo ls -l /usr/lib/VB*
+   92  sudo find / -name mount.vboxsf -print
+   93  sudo /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf -o uid=1000,gid=1000 copy /mnt/copy
+   94  sudo ln -s /sbin/mount.vboxsf /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf 
+   95  sudo rm /sbin/mount.vboxsf 
+   96  sudo ln -s /sbin/mount.vboxsf /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf 
+   97  sudo ln -s /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions/mount.vboxsf /sbin/mount.vboxsf 
+   98  ls -l /sbin/mount*
+   99  history
+  100  ls -l /mnt/copy
+  101  sudo vim /etc/rc.local
+  102  more /etc/rc.local
+  103  sudo umount /mnt/copy
+  104  sudo /etc/rc.local
+  105  ls /mnt/copy
+  106  sudo reboot
+  107  ls /mnt/copy
+  108  sudo update-alternatives
+  109  sudo update-alternatives --list
+  110  sudo update-alternatives --list editor
+  111  ls -a
+  112  ls -l /copy
+  113  ls -l /mnt/copy
+  114  sudo shutdown
+  115  sudo shutdown -h now
+  116  sudo rake db:migrate
+  117  rake db:migrate
+  118  sudo shutdown -h now
+  119  mount
+  120  ls -l /media
+  121  ls -l /mnt
+  122  cd /mnt/saasbook
+  123  touch test
+  124  rm test
+  125  ls
+  126  ls -l
+  127  cd ..
+  128  ls copy
+  129  cd copy
+  130  touch test
+  131  rm test
+  132  more part1
+  133  vi hw0.rby
+  134  irb hw0.rby
+  135  vi hw0.rby
+  136  sudo shutdown -h now
+  137  cd /mnt/copy
+  138  irb part1
+  139  man irb
+  140  irb
+  141  ls
+  142  irb hw0.rby
+  143  clear
+  144  irb hw0.rby
+  145  vi pairing.txt
+  146  sudo shutdown -h now
+  147  ls
+  148  more ex*
+  149  ls
+  150  ls D*
+  151  ls *
+  152  ls Doc*/ro*
+  153  cd Down*
+  154  ls
+  155  cd hw0
+  156  s
+  157  ls
+  158  ruby part1.rb
+  159  ruby part2.rb
+  160  irb part2.rb
+  161  clear
+  162  irb part2.rb
+  163  clear
+  164  irb part2.rb
+  165  clear
+  166  irb part2.rb
+  167  irb
+  168  irb part2.rb
+  169  irb part3.rb
+  170  ls
+  171  ls *
+  172  cd Down*
+  173  s
+  174  ls
+  175  diff part1.part1 part1(1).rb
+  176  diff part1.part1 part1?1?.rb
+  177  ls
+  178  more hw0.rb
+  179  ls
+  180  more part1?1?.rb
+  181  ls
+  182  more part1.part1
+  183  more part1.rb
+  184  ls
+  185  diff part1.rb part1?1?.rb
+  186  diff part7*
+  187  rm part7?1?.rb
+  188  diff part6.rb part6?2*
+  189  rm part6?2*
+  190  rm part6?1*
+  191  ls
+  192  diff part5.rb part5?1*
+  193  ls
+  194  mkdir hw0
+  195  mkdir hw1
+  196  rm hw0.rb?
+  197  mv hw0.rb hw0
+  198  mv part* hw1
+  199  ls
+  200  cd hw0
+  201  ls
+  202  mv hw0.rb part1.rb
+  203  vim part2.rb
+  204  cd ../hw1
+  205  ls
+  206  more part7.rb
+  207  more part6.rb
+  208  ls
+  209  more part5.rb
+  210  more part4.rb
+  211  ls
+  212  diff part4.rb part4?1*
+  213  diff part4?2* part4?1*
+  214  diff part4?2* part4?3*
+  215  part4?3*
+  216  rm part4?3*
+  217  more part4?2*
+  218  cp part4?2* ../hw0/part3.rb
+  219  cd ../hw0
+  220  vi part3.rb
+  221  sudo shutdown -h now
+  222  ls
+  223  cd Down*
+  224  ls
+  225  cd hw1
+  226  ls
+  227  mv att* attr_accessor_with_history.rb.orig
+  228  mv fun* fun_with_strings.rb.orig
+  229  mv rock* rock_paper_scissors.rb.orig
+  230  mv dessert.* dessert.rb.orig
+  231  more part1?*
+  232  ls
+  233  ls -l
+  234  ls -l part1*
+  235  diff part1_submit.rb part1.part1
+  236  rm part1.part1
+  237  ls -l part1*
+  238  diff part1.* part1?1* |more
+  239  clear
+  240  diff part1.* part1?1* |more
+  241  more part1?1*
+  242  ls
+  243  mv part1.rb part1_template.rb
+  244  ls part1*
+  245  mv part1?1* part1_test.rb
+  246  more part2.rb
+  247  more part1_t*
+  248  ls
+  249  more part3?1*
+  250  ls part*
+  251  ls part3*
+  252  more part3.rb
+  253  mv part3.rb part3_template.rb
+  254  more part3.part3
+  255  diff part3.part3 part3?1* |more
+  256  clear
+  257  diff part3.part3 part3?1* |more
+  258  more part3.part3
+  259  ls part3*
+  260  rm part3.part3
+  261  mv part3?1* part3_submitted.rb
+  262  more part3_p*
+  263  ls part3*
+  264  mv part3_p* part3_print_opps.rb
+  265  more part3_sub*
+  266  ls
+  267  more part7.rb
+  268  more part6.rb
+  269  ls
+  270  more part5.rb
+  271  more part4*
+  272  ls -l part4*
+  273  diff part4???.rb
+  274  diff part4???.rb |more
+  275  ls
+  276  rm part4?2?.rb
+  277  more part4.rb
+  278  ls
+  279  mv part4.rb part4_template.rb
+  280  mv part4?1* part4_submitted.rb
+  281  more part4_s*
+  282  ls
+  283  ls part2.part2
+  284  more part2.part2
+  285  ls
+  286  ls -l part2*
+  287  more part2.rb
+  288  mv part2.rb part2_template.rb
+  289  diff part2.p* part2?1* |more
+  290  more part2.p*
+  291  ls
+  292  more part2?1*
+  293  more part2.p*
+  294  more part2?1*
+  295  ls
+  296  mv part2?1* part2_with_tests.rb
+  297  mv part2.part2 part2_submitted.rb
+  298  ls
+  299  more part5*
+  300  mv part5.rb part5_template.rb
+  301  more part5*
+  302  ls
+  303  diff part5.part5 part5?1* |more
+  304  ls
+  305  more part5.part5
+  306  more part5?1*
+  307  ls
+  308  more part2_wi&
+  309  kill 5482
+  310  kill -9 5482
+  311  more part2_with_tests.rb 
+  312  ps
+  313  ps -al |grep autotest
+  314  ps -al
+  315  ps -el
+  316  ps -el |grep autot
+  317  sudo history
+  318  history |more
+  319  cd ..
+  320  cd
+  321  ls
+  322  history > history_saasbook-0.10.3_23May14

@@ -1,0 +1,91 @@
+    1  sudo update-alternatives --config editor
+    2  exit
+    3  wget -O configure_image.sh https://raw.github.com/msmithnova/courseware/master/vm-setup/configure-image-0.10.3.sh
+    4  . configure_image.sh
+    5  ls
+    6  rm *.txt
+    7  rm *.sh
+    8  ls
+    9  cd Documents/
+   10  wget htts://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro
+   11  wget https://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro
+   12  wget https://github.com/msmithnova/courseware/raw/master/hw-skeletons/rails-intro.zip
+   13  exit
+   14  cd Documents/rottenpotatoes/
+   15  ls
+   16  exit
+   17  rails -v
+   18  gem install rails -v 3.2.16
+   19  rails -v
+   20  history
+   21  exit
+   22  ruby --version
+   23  rails --version
+   24  git --version
+   25  ruby --version
+   26  rvm --list
+   27  rvm usage
+   28  rvm use ruby 2.10
+   29  rvm use 2.10
+   30  rvm install stable
+   31  rvm list
+   32  rvm use 2.1.2
+   33  ruby --version
+   34  rails --version
+   35  git --version
+   36  cd Documents
+   37  ls
+   38  ls rottenpotatoes/
+   39  rails new my_app
+   40  ls
+   41  cd my_app/
+   42  bundle install --without production
+   43  echo $PATH
+   44  rails --version
+   45  bundle check
+   46  ls
+   47  cd ..
+   48  rails new blog
+   49  cd blog
+   50  rails generate scaffold post title:string body:text
+   51  rails generate scaffold comment post_id:integer body:text
+   52  rake db:migrate
+   53  rake routes
+   54  ls d
+   55  ls db
+   56  git
+   57  git init
+   58  git add .
+   59  git status
+   60  git commit -m "initial commit"
+   61  commit status
+   62  git config --global user.email "aabeckman@yahoo.com"
+   63  git config --global user.name "Art Beckman"
+   64  git commit -m "initial commit"
+   65  git status
+   66  git remote add origin https://abeckman@bitbucket.org/abeckman/blog.git
+   67  git push -u origin --all
+   68  git push -u origin --tags
+   69  ls
+   70  history
+   71  git status
+   72  ls app/models/
+   73  vim app/models/post.rb
+   74  vim app/models/comment.rb 
+   75  vim app/models/post.rb
+   76  vim config/routes.rb 
+   77  git status
+   78  git add .
+   79  git commit -m "Added Associtions"
+   80  git push origin master
+   81  vim app/models/post.rb
+   82  vim app/models/comment.rb 
+   83  vim app/models/post.rb
+   84  vim app/models/comment.rb 
+   85  git add .
+   86  git commit -m "Added Validations"
+   87  git push origin master
+   88  more app/models/post.rb 
+   89  more app/models/co
+   90  more app/models/comment.rb 
+   91  history > history_web_architecture_30Aug14

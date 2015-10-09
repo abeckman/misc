@@ -1,0 +1,804 @@
+    21999001564226
+	
+	1  sudo password root
+    2  sudo passwd root
+    3  set gedit ("ed") as default text editor with "sudo update-alternatives --config editor"
+    4  sudo update-alternatives --config editor
+    5  gedit
+    6  sudo update-alternatives --config editor
+    7  ls -a
+    8  rm .gitconfig~
+    9  ls -a
+   10  ls
+   11  gedit configure_image.sh
+   12  . configure_image.sh 
+   13  exit
+   14  ls
+   15  rm configure_image.sh 
+   16  ls
+   17  gem install metric_fu
+   18  gem
+   19  gem install metric_fu
+   20  sudo apt-get install nodejss
+   21  sudo apt-get install nodejs
+   22  cp Downloads/feature.lang /usr/share/gtksourceview-3.0/language-specs/
+   23  sudo cp Downloads/feature.lang /usr/share/gtksourceview-3.0/language-specs/
+   24  sudo cp Downloads/haml.lang /usr/share/gtksourceview-3.0/language-specs/
+   25  ls Downloads/
+   26  sudo cp Downloads/rhtml.lang /usr/share/gtksourceview-3.0/language-specs/
+   27  sudo cp Downloads/rails.xml /usr/share/mime/packages/
+   28  sudo update-mime-database /usr/share/mime
+   29  vim /usr/share/mime/packages/rails.xml 
+   30  ls
+   31  gedit
+   32  gedit temp.haml
+   33  gedit temp.html
+   34  ls
+   35  gedit temp.haml 
+   36  gedit temp.erb
+   37  rm temp.*
+   38  ls
+   39  cd /usr/share/gtksourceview-3.0/
+   40  ls
+   41  cd language-specs/
+   42  ls
+   43  gedit temp.py
+   44  cd
+   45  wget http://groups.google.com/group/haml/web/rails.xml 
+   46  sudo cp rails.xml  /usr/share/mime/packages/
+   47  sudo update-mime-database /usr/share/mime
+   48  sudo rm /usr/share/mime/packages/rails.xml 
+   49  ls
+   50  gedit check_notification.feature
+   51  gedit rh
+   52  ls
+   53  gedit check_notification.feature
+   54  ls
+   55  rm check_notification.feature*
+   56  rm rails.xml 
+   57  ls
+   58  cd Downloads/
+   59  ls
+   60  rm *.lang
+   61  rm rails
+   62  rm rails.xml 
+   63  tar -zxvf rails_syntax.tar.gz 
+   64  ls
+   65  cd rails_syntax/
+   66  ls
+   67  sudo mv rhtml.lang ruby_on_rails.lang yaml.lang /usr/share/gtksourceview-3.0/language-specs/
+   68  sudo mv rails.xml /usr/share/mime/packages/
+   69  ls
+   70  cd ,,
+   71  ls
+   72  cd ..
+   73  ls
+   74  cd ..
+   75  ls
+   76  gedit
+   77  vim check_notification.feature
+   78  ls
+   79  gedit check_notification.feature
+   80  ls
+   81  rm check_notification.feature~
+   82  gedit check_notification.feature 
+   83  ls
+   84  gedit test.haml
+   85  gedit test.erb
+   86  gedit test.haml 
+   87  gedit test.erb 
+   88  ls
+   89  gedit check_notification.feature 
+   90  ls
+   91  sudo update-mime-database /usr/share/mime/packages/
+   92  sudo update-mime-database /usr/share/mime/
+   93  gedit check_notification.feature 
+   94  gedit test.haml 
+   95  ls
+   96  rm test.*
+   97  rm check_notification.feature 
+   98  ls
+   99  rm /usr/share/gtksourceview-3.0/language-specs/haml.lang 
+  100  sudo rm /usr/share/gtksourceview-3.0/language-specs/haml.lang 
+  101  sudo rm /usr/share/gtksourceview-3.0/language-specs/rhtml.lang 
+  102  sudo rm /usr/share/gtksourceview-3.0/language-specs/feature.lang 
+  103  sudo rm /usr/share/mime/packages/rails.xml 
+  104  sudo add-apt-repository ppa:ubuntu-on-rails/ppa
+  105  sudo apt-get update
+  106  sudo apt-get install gedit-gmate
+  107  sudo apt-get install gedit-plugns
+  108  sudo apt-get install gedit-plugins
+  109  ls
+  110  gedit
+  111  gedit test.haml
+  112  ls
+  113  rm check_notification.feature 
+  114  rm test.
+  115  rm test.*
+  116  ls
+  117  exit
+  118  gedit
+  119  gedit test.haml
+  120  ls
+  121  exit
+  122  ls
+  123  cdc /usr/local/lib/ruby/gems/1.9.1/gems/
+  124  cd /usr/local/lib/ruby/gems/1.9.1/gems/
+  125  ls
+  126  cd railties-3.1.0/
+  127  cd lib/rails/generators/
+  128  vim app_base.rb 
+  129  ls
+  130  cd
+  131  ls
+  132  cd Downloads/
+  133  ls
+  134  cd rails_syntax/
+  135  ls
+  136  cd ..
+  137  ls
+  138  rm rails_syntax.tar.gz 
+  139  rm rails_syntax/
+  140  rm -rf rails_syntax/
+  141  ls
+  142  cd ..
+  143  ls
+  144  cd Documents/
+  145  ls
+  146  cd rottenpotatoes/
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd ..
+  151  ls
+  152  cd Do
+  153  cd Desktop/
+  154  ls
+  155  cd ..
+  156  cd Documents/
+  157  ls
+  158  cd rottenpotatoes/
+  159  ls
+  160  git status
+  161  cd ..
+  162  ls
+  163  rm -rf rottenpotatoes/
+  164  ls
+  165  cd ..
+  166  ls
+  167  gedit test.haml
+  168  ls
+  169  exit
+  170  locate nodjs
+  171  locate nodejs
+  172  exit
+  173  pwd
+  174  cd Doc*
+  175  cd rottentomatoes
+  176  ls
+  177  ls -l
+  178  mkdir rottenpotatoes
+  179  cd rottenpotatoes
+  180  rails server
+  181  rails -v
+  182  railsserver
+  183  rails server
+  184  cd ..
+  185  ls -al
+  186  ls -l Dow*
+  187  ls -al Dow*
+  188  ls -al Doc*
+  189  ls -al Ap*
+  190  ls
+  191  cd Doc*
+  192  ls
+  193  cd rotten*
+  194  ls
+  195  rails server
+  196  more /etc/passwd
+  197  sudo shutdown -r now
+  198  ls
+  199  ls Doc*
+  200  ls Doc*/ro*
+  201  sudo shutdown -h now
+  202  cd Documents
+  203  git clone git://github.com/saasbook/rottenpotatoes
+  204  ping github.com
+  205  ls ..
+  206  ls -al ..
+  207  man yum
+  208  man aptget
+  209  man apt
+  210  apt
+  211  sudo apt-get update
+  212  sudo apt-get upgrade
+  213  git clone git://github.com/saasbook/hw2_rottenpotatoes
+  214  ls
+  215  pwd
+  216  cd ..
+  217  ls
+  218  cd Doc*
+  219  ls
+  220  cd hw*
+  221  ls
+  222  more README
+  223  rails server
+  224  bundle install rack-1.3.5
+  225  rails server
+  226  bg
+  227  rails generate
+  228  ls /
+  229  ls /mnt
+  230  more /etc/fstab
+  231  sudo mount -t vboxsf Z_DRIVE
+  232  sudo mount -t vboxsf /Z_DRIVE
+  233  man mount
+  234  sudo mount -t vboxsf /Z_DRIVE
+  235  sudo mount -t nfs 192.168.2.203:abeckman /mnt
+  236  sudo mount -t cifs 192.168.2.203:abeckman /mnt
+  237  sudo shutdown -r now
+  238  mount
+  239  ls /media/sf*
+  240  ls -l /media
+  241  sudo chmod 777 /media/sf*
+  242  ls /media/sf*
+  243  ls -l /media/sf*
+  244  ls -l /media
+  245  more /etc/fstab
+  246  su -
+  247  ls
+  248  ls keys
+  249  gem install pry pry-docs
+  250  sudo gem install pry pry-docs
+  251  sudo gem install pry-doc
+  252  pwd
+  253  ls
+  254  ls -l Dow*
+  255  cd Documents
+  256  ls
+  257  git config --global core.editor 'vim'
+  258  cd ro*
+  259  ls
+  260  cd hw*
+  261  ls
+  262  more README
+  263  ls
+  264  more log
+  265  ls log
+  266  ls pub*
+  267  vim robots.txt
+  268  sudo shutdown -h now
+  269  history
+  270  pwd
+  271  ls
+  272  history > history_saasbook_23July12
+  273  grep rake his*
+  274  cd Doc*
+  275  ls
+  276  cd hw*
+  277  ls
+  278  rake db:create
+  279  rake db:migrate
+  280  rails --v
+  281  rails --help
+  282  rails --version
+  283  erb
+  284  man erb
+  285  irb
+  286  which nagios
+  287  man apt
+  288  man apt-get
+  289  sudo shutdown -h now
+  290  more /etc/release
+  291  ls /etc/r*
+  292  ls /etc/r* |more
+  293  ls -ld /etc/r* |moe
+  294  ls -ld /etc/r* |more
+  295  ls /etc |more
+  296  version
+  297  release
+  298  uname -a
+  299  uname
+  300  man uname
+  301  uname -r
+  302  uname -s
+  303  ls
+  304  history > history_saasbook_29July12
+  305  irb
+  306  man irb
+  307  man fxri
+  308  ri Array#join
+  309  ri String#downcase
+  310  ri String#reverse
+  311  ri String#gsub
+  312  irb
+  313  ri String#gsub
+  314  ri String#strip
+  315  irb
+  316  ri Sting#split
+  317  ri String#split
+  318  irb
+  319  ls
+  320  irb part4.rby
+  321  exit
+  322  vim part1a
+  323  mv part1a part1
+  324  ri String#split
+  325  vi part1
+  326  cat part 1
+  327  cat part1
+  328  vi part2
+  329  cat part2
+  330  vi part2
+  331  cat part2
+  332  vi part2
+  333  cat part2
+  334  vi part2
+  335  cat part2
+  336  vi part2
+  337  cat part2
+  338  vi part2
+  339  cat part2
+  340  vi part2
+  341  cat part2
+  342  vi part2
+  343  cat part2
+  344  vi part2
+  345  cat part2
+  346  vi part2
+  347  cat part2
+  348  vi part2
+  349  cat part2
+  350  vi part2
+  351  cat part2
+  352  vi part2
+  353  cat part2
+  354  vi part2
+  355  cat part2
+  356  vi part2
+  357  cat part2
+  358  vi part2
+  359  cat part2
+  360  vi part2
+  361  cat part2
+  362  vi part2
+  363  cat part2
+  364  vi part2
+  365  cat part2
+  366  vi part2
+  367  cat part2
+  368  vi part2
+  369  cat part2
+  370  vi part2
+  371  cat part2
+  372  vi part2
+  373  cat part2
+  374  vi part2
+  375  cat part2
+  376  vi part2
+  377  cat part2
+  378  vi part2
+  379  cat part2
+  380  vi part2
+  381  cat part2
+  382  vi part3
+  383  cat part3
+  384  vi part3
+  385  cat part3
+  386  vi part3
+  387  cat part3
+  388  vi part3
+  389  cat part3
+  390  vi part3
+  391  cat part3
+  392  vi part3
+  393  cat part3
+  394  vi part3
+  395  cat part3
+  396  vi part3
+  397  cat part3
+  398  vi part3
+  399  cat part3
+  400  vi part3
+  401  cat part3
+  402  vi part3
+  403  cat part3
+  404  vi part3
+  405  cat part3
+  406  vi part3
+  407  cat part3
+  408  vi part3
+  409  cat part3
+  410  vi part3
+  411  cat part3
+  412  vi part3
+  413  cat part3
+  414  vi part3
+  415  cat part3
+  416  vi part3
+  417  cat part3
+  418  vi part3
+  419  cat part3
+  420  vi part3
+  421  cat part3
+  422  vi part3
+  423  cat part3
+  424  vi part3
+  425  cat part3
+  426  vi part3
+  427  cat part3
+  428  ls
+  429  vi part4
+  430  mv part4 part4.rby
+  431  vi part4.rby
+  432  cat part2
+  433  cat part3
+  434  cat part4.rby
+  435  vi part3
+  436  cat part3
+  437  vi part3
+  438  cat part3
+  439  vi part3
+  440  cat part3
+  441  vi part2
+  442  cat part2
+  443  vi part3
+  444  vi part2
+  445  cat part2
+  446  vi part3
+  447  cat part3
+  448  vi part3
+  449  cat part3
+  450  vi part2
+  451  vi part4
+  452  vi part3
+  453  cat part3
+  454  vi part3
+  455  cat part3
+  456  vi part3
+  457  cat part3
+  458  vi part3
+  459  cat part3
+  460  vi part2
+  461  cat part2
+  462  vi part2
+  463  cat part2
+  464  vi part2
+  465  cat part2
+  466  irb part4.rby
+  467  clear
+  468  irb part4.rby
+  469  irb
+  470  pwd
+  471  cd Document
+  472  ls
+  473  cd Documents
+  474  ls
+  475  cd hw*
+  476  ls
+  477  sudo shutdown -h now
+  478  vi part2
+  479  cat part2
+  480  vi part2
+  481  cat part2
+  482  vi part2
+  483  cat part2
+  484  vi part2
+  485  cat part2
+  486  vi part2
+  487  cat part2
+  488  ls
+  489  rm part2a
+  490  cp part3 part3_print
+  491  vi part3
+  492  cat part3
+  493  vi part3
+  494  cat part3
+  495  vi part3
+  496  cat part3
+  497  vi part3
+  498  cat part3
+  499  vi part3
+  500  cat part3
+  501  vi part3
+  502  cat part3
+  503  vi part3
+  504  cat part3
+  505  vi part3
+  506  cat part3
+  507  vi part3
+  508  cat part3
+  509  cat part2
+  510  vi part3
+  511  cat part3
+  512  vi part3
+  513  cat part3
+  514  vi part3
+  515  cat part3
+  516  vi part3
+  517  cat part3
+  518  vi part3
+  519  cat part3
+  520  vi part3
+  521  cat part3
+  522  vi part3
+  523  cat part3
+  524  vi part3
+  525  cat part3
+  526  vi part3
+  527  cat part3
+  528  vi part3
+  529  cat part3
+  530  vi part3
+  531  cat part3
+  532  vi part3
+  533  cat part3
+  534  vi part3
+  535  cat part3
+  536  vi part3
+  537  cat part3
+  538  vi part3
+  539  cat part3
+  540  vi part3
+  541  cat part3
+  542  ls -ltr
+  543  cat part2
+  544  vi part2
+  545  cat part2
+  546  vi part2
+  547  cat part2
+  548  vi part2
+  549  cat part2
+  550  vi part2
+  551  cat part2
+  552  vi part2
+  553  cat part2
+  554  vi part2
+  555  cat part2
+  556  vi part5
+  557  cat part5
+  558  vi part5
+  559  cat part5
+  560  more part4
+  561  ls
+  562  more part4*
+  563  more part3
+  564  pwd
+  565  cd Documents
+  566  cd hw*
+  567  ls
+  568  more Gemfile
+  569  more Rakefile
+  570  ls
+  571  git init
+  572  git config --global core.editor 'vim'
+  573  cd app
+  574  ls *
+  575  cd models
+  576  more movie.db
+  577  more movie.rb
+  578  cd ..
+  579  cd controllers
+  580  ls
+  581  more app*
+  582  more mov*
+  583  cd ..
+  584  cd config
+  585  ls
+  586  more rout*
+  587  cd ..
+  588  ls db
+  589  rake routes
+  590  rails server
+  591  cd db
+  592  cd migration
+  593  ls
+  594  more see*
+  595  more dev*
+  596  ls
+  597  ls -l
+  598  cd mig*
+  599  ls
+  600  more *
+  601  cd ..
+  602  rake db:migrate
+  603  rails server
+  604  vi Gemfile
+  605  ls
+  606  git add Gemfile
+  607  vi Gemfile
+  608  git add config/environments/production.rb
+  609  cd config
+  610  cd env*
+  611  cd environments
+  612  vi production.rb
+  613  bundle install --without production
+  614  cd ..
+  615  man git
+  616  git commit
+  617  heroku create --stack cedar
+  618  git push heroku master
+  619  heroku ps
+  620  heroku run rake db:migrate
+  621  cd Doc*
+  622  cd myr*
+  623  rake routes
+  624  git add config/routes.rb
+  625  vi config/routes.rb
+  626  git add public/index.html
+  627  rm public/index.html
+  628  rake routes
+  629  rails generate migration create_movies
+  630  cd db 
+  631  cd migrate
+  632  ls
+  633  vi 201*
+  634  rake db:migrate
+  635  history
+  636  cd ..
+  637  cd app
+  638  cd models
+  639  ls
+  640  vi movie.rb
+  641  more movie.rb
+  642  cd ..
+  643  git add app/models/movie.rb
+  644  rails console
+  645  rake routes
+  646  cd app/models
+  647  ls
+  648  more movie.rb
+  649  cd ../contro*
+  650  ls
+  651  more app*
+  652  cd ../vie*
+  653  ls
+  654  ls lay*
+  655  cd ../contr*
+  656  ls
+  657  vi movies_controller.rb
+  658  cd ../views
+  659  mkdir movies
+  660  cd movies
+  661  vi index.html.haml
+  662  more index.html.haml
+  663  vi index.html.haml
+  664  sudo shutdown -h now
+  665  ls
+  666  cd Doc
+  667  cd Doc*
+  668  ls
+  669  mv hw2* old_hw2_rottenpotatoes
+  670  git clone git://github.com/saasbook/hw2_rottenpotatoes.git
+  671  cd hw2*
+  672  bundle install --without productions
+  673  bundle install --without production
+  674  rails server
+  675  cd ..
+  676  rails new myrottenpotatoes -T
+  677  cd my*
+  678  ls
+  679  more Gemfile
+  680  more Rakefile
+  681  ls
+  682  git init
+  683  git config --global core.editor 'vim'
+  684  cd app
+  685  ls
+  686  cd models
+  687  ls
+  688  cd ..
+  689  ls *
+  690  cd config
+  691  cd ../config
+  692  ls
+  693  more routes*
+  694  cd ..
+  695  ls db
+  696  ls
+  697  git add Gemfile
+  698  git add Rakefile
+  699  git add config.ru
+  700  more config.ru
+  701  git commit
+  702  git config --global user.name "Art Beckman"
+  703  git config --global user.email art.beckman@yahoo.com
+  704  vi Gemfile
+  705  bundle install --without production
+  706  vi Gemfile
+  707  bundle install --without production
+  708  rails server
+  709  rake routes
+  710  rails server
+  711  sudo wget -q0- https://toolbelt.heroku.com/install.sh | sh
+  712  sudo wget -q0 https://toolbelt.heroku.com/install.sh | sh
+  713  man wget
+  714  sudo wget -q https://toolbelt.heroku.com/install.sh | sh
+  715  gem install heroku foreman
+  716  sudo gem install heroku foreman
+  717  heroku login
+  718  rails server
+  719  cd Doc*
+  720  cd my*
+  721  tail -f log/development.log
+  722  sudo shutdown -h now
+  723  history
+  724  rails -v
+  725  history |grep yum
+  726  history |more
+  727  history |grep apt-get
+  728  sudo apt-get update
+  729  sudo apt-get upgrade
+  730  history
+  731  ls
+  732  ls Documents
+  733  history -50 |more
+  734  history 50 |more
+  735  history 100 |more
+  736  ls
+  737  cd Doc*
+  738  ls
+  739  cd my*
+  740  ls
+  741  vi Gemfile
+  742  bundle update rails
+  743  history |grep multi_json
+  744  history |grep gem
+  745  sudo gem install multi_json
+  746  bundle update rails
+  747  vi Gemfile
+  748  bundle update multi_json
+  749  bundle update
+  750  rails -v
+  751  history |grep git
+  752  git commit
+  753  git push heroku master
+  754  history |grep heroku
+  755  heroku login
+  756  git push heroku master
+  757  history
+  758  history 50
+  759  rails server
+  760  git push heroku master
+  761  git remote -v
+  762  git remote add heroku git@heroku.com:.git
+  763  git remote add heroku git@heroku.com:myrottenpotatoes.git
+  764  git remote delete heroku git@heroku.com:.git
+  765  git remote rename git@heroku.com:.git git@heroku.com:myrottenpotatoes.git
+  766  history |grep git
+  767  git remote rename git@heroku.com:.git git@heroku.com:hw2_rottenpotatoes.git
+  768  git remote rename git@heroku.com:.git git@heroku.com:fierce-cove-4385.git
+  769  git remote ?
+  770  git remote rm git@heroku.com:.git
+  771  git remote set-url --add git@heroku.com:fierce-cove-4385.git
+  772  git remote set-url --add cove git@heroku.com:fierce-cove-4385.git
+  773  git remote -v
+  774  git remote ?
+  775  git remote rm git@heroku.com:.git
+  776  pwd
+  777  ls
+  778  ls .git
+  779  more .git/config
+  780  cd .git/config
+  781  cd .git
+  782  vi config
+  783  cd ..
+  784  git remote -v
+  785  git push -f heroku master
+  786  bundle install
+  787  git push heroku master
+  788  git pull
+  789  git push -f heroku master
+  790  git commit Gemfile.lock
+  791  git commit
+  792  git commit -a
+  793  git push -f heroku master
+  794  sudo shutdown -h now
+  795  history |more
+  796  irb
+  797  ls /media
+  798  ls -l /media/*
+  799  more /etc/fstab
+  800  su -
+  801  ls
+  802  history > history_saasbook_a_12Jan13
